@@ -6,6 +6,7 @@ __pycache__/
 *.wav
 node_modules
 *.pkf
+*.mp3
 
 # C extensions
 *.so
