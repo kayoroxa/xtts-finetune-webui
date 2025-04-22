@@ -1,15 +1,42 @@
+import gc
 import logging
 import os
-import gc
+import shutil
 from pathlib import Path
 
+import torch
+import torchaudio
 from trainer import Trainer, TrainerArgs
-
 from TTS.config.shared_configs import BaseDatasetConfig
 from TTS.tts.datasets import load_tts_samples
-from TTS.tts.layers.xtts.trainer.gpt_trainer import GPTArgs, GPTTrainer, GPTTrainerConfig, XttsAudioConfig
+from TTS.tts.layers.xtts.trainer.gpt_trainer import (GPTArgs, GPTTrainer,
+                                                     GPTTrainerConfig,
+                                                     XttsAudioConfig)
 from TTS.utils.manage import ModelManager
-import shutil
+
+
+def generate_sample(model, config, text, ref_audio, lang, step):
+    if not os.path.exists(ref_audio):
+        print("[!] Áudio de referência não encontrado")
+        return
+    gpt_latent, speaker_embed = model.get_conditioning_latents(audio_path=ref_audio)
+    out = model.inference(
+        text=text,
+        language=lang,
+        gpt_cond_latent=gpt_latent,
+        speaker_embedding=speaker_embed,
+        temperature=config.audio.temperature,
+        length_penalty=config.audio.length_penalty,
+        repetition_penalty=config.audio.repetition_penalty,
+        top_k=config.audio.top_k,
+        top_p=config.audio.top_p,
+        enable_text_splitting=True,
+    )
+    out_path = os.path.join(config.output_path, f"sample_epoch_{step}.wav")
+    torchaudio.save(out_path, torch.tensor(out["wav"]).unsqueeze(0), 24000)
+    print(f"[✓] Amostra salva: {out_path}")
+
+
 
 
 def train_gpt(custom_model,version, language, num_epochs, batch_size, grad_acumm, train_csv, eval_csv, output_path, max_audio_length=255995):
@@ -167,7 +194,13 @@ def train_gpt(custom_model,version, language, num_epochs, batch_size, grad_acumm
         lr_scheduler="MultiStepLR",
         # it was adjusted accordly for the new step scheme
         lr_scheduler_params={"milestones": [50000 * 18, 150000 * 18, 300000 * 18], "gamma": 0.5, "last_epoch": -1},
-        test_sentences=[],
+        test_sentences=[
+        {
+            "text": "Essa é uma amostra automática do modelo.",
+            "language": language,
+            "speaker_wav": "E:/REPOS/xtts-finetune-webui/finetune_models/ready/reference.wav"
+        }
+    ],
     )
 
     # init the model from config
@@ -196,6 +229,21 @@ def train_gpt(custom_model,version, language, num_epochs, batch_size, grad_acumm
         eval_samples=eval_samples,
     )
     trainer.fit()
+    #depois:
+    # for i in range(config.epochs):
+    #     trainer.fit_epoch()
+        
+    #     # Gere amostra ao final de cada época
+    #     generate_sample(
+    #         model, 
+    #         config, 
+    #         text="Essa é uma amostra automática", 
+    #         ref_audio=speaker_ref, 
+    #         lang=language, 
+    #         step=i + 1
+    #     )
+
+
 
     # get the longest text audio file to use as speaker reference
     samples_len = [len(item["text"].split(" ")) for item in train_samples]

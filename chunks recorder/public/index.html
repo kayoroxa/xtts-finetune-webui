@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shadowing TTS App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Shadowing TTS</h1>
+      <div id="phraseDisplay"></div>
+      <p class="instructions">
+        Atalhos: <br />
+        - "r": Tocar referência <br />
+        - "Ctrl + Espaço": Iniciar gravação <br />
+        - "Espaço": Parar/Play gravação <br />
+        - "d": Próxima frase <br />
+        - "a": Frase anterior
+      </p>
+      <audio id="referenceAudio" controls style="display: none"></audio>
+      <audio id="recordedAudio" controls style="display: none"></audio>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

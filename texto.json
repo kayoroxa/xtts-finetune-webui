@@ -1,0 +1,2507 @@
+{
+  "completed_at": "2025-04-15T04:11:45.691436Z",
+  "created_at": "2025-04-15T04:07:13.417000Z",
+  "data_removed": false,
+  "error": null,
+  "id": "7ssvfrhk15rg80cp6ygvh0g2n4",
+  "input": {
+    "audio": "https://replicate.delivery/pbxt/Mq5Nm5mGp5Ola6sE7XLjk4zi53giuGCoPRiM9p3XvT0zMpDh/V%C3%ADdeo%20sem%20t%C3%ADtulo%20%E2%80%90%20Feito%20com%20o%20Clipchamp%20%2810%29.mp4",
+    "language": "auto",
+    "translate": false,
+    "temperature": 0,
+    "transcription": "plain text",
+    "suppress_tokens": "-1",
+    "logprob_threshold": -1,
+    "no_speech_threshold": 0.6,
+    "condition_on_previous_text": true,
+    "compression_ratio_threshold": 2.4,
+    "temperature_increment_on_fallback": 0.2
+  },
+  "logs": "Transcribe with large-v3 model.\nAudio duration: 523.0 sec\nDetected language: Portuguese\n  0%|          | 0/52300 [00:00<?, ?frames/s]\n  5%|▌         | 2754/52300 [00:06<01:51, 443.17frames/s]\n 11%|█         | 5754/52300 [00:12<01:39, 465.62frames/s]\n 17%|█▋        | 8682/52300 [00:19<01:41, 431.11frames/s]\n 17%|█▋        | 8682/52300 [00:29<01:41, 431.11frames/s]\n 22%|██▏       | 11678/52300 [00:38<02:38, 256.82frames/s]\n 22%|██▏       | 11678/52300 [00:50<02:38, 256.82frames/s]\n 28%|██▊       | 14674/52300 [01:21<04:50, 129.47frames/s]\n 34%|███▍      | 17674/52300 [01:27<03:17, 174.97frames/s]\n 40%|███▉      | 20674/52300 [01:33<02:23, 220.23frames/s]\n 45%|████▌     | 23668/52300 [01:40<01:48, 264.93frames/s]\n 51%|█████     | 26642/52300 [01:46<01:23, 308.44frames/s]\n 57%|█████▋    | 29578/52300 [01:53<01:07, 336.61frames/s]\n 62%|██████▏   | 32578/52300 [01:59<00:53, 368.72frames/s]\n 68%|██████▊   | 35526/52300 [02:05<00:42, 396.86frames/s]\n 74%|███████▎  | 38510/52300 [02:12<00:33, 411.45frames/s]\n 79%|███████▉  | 41510/52300 [02:18<00:25, 423.75frames/s]\n 85%|████████▌ | 44474/52300 [02:25<00:18, 430.09frames/s]\n 91%|█████████ | 47474/52300 [02:32<00:11, 431.13frames/s]\n 96%|█████████▋| 50374/52300 [02:38<00:04, 442.31frames/s]\n100%|██████████| 52300/52300 [02:42<00:00, 452.79frames/s]\n100%|██████████| 52300/52300 [02:42<00:00, 321.83frames/s]",
+  "metrics": {
+    "predict_time": 165.470394156,
+    "total_time": 272.274436
+  },
+  "output": {
+    "segments": [
+      {
+        "id": 0,
+        "end": 3.74,
+        "seek": 0,
+        "text": " Você já passou por isso. Senta para estudar ou trabalhar e pensa",
+        "start": 0,
+        "tokens": [
+          50365, 9781, 6242, 44740, 1515, 4616, 13, 318, 8938, 1690, 13542, 289,
+          2820, 35531, 308, 46909, 50552
+        ],
+        "avg_logprob": -0.09808679782983029,
+        "temperature": 0,
+        "no_speech_prob": 0.00037408655043691397,
+        "compression_ratio": 1.5463576158940397
+      },
+      {
+        "id": 1,
+        "end": 5.86,
+        "seek": 0,
+        "text": " só vou dar uma olhadinha no YouTube rapidinho.",
+        "start": 3.74,
+        "tokens": [
+          50552, 6238, 6008, 4072, 2772, 2545, 26326, 6727, 572, 3088, 7558,
+          7775, 13, 50658
+        ],
+        "avg_logprob": -0.09808679782983029,
+        "temperature": 0,
+        "no_speech_prob": 0.00037408655043691397,
+        "compression_ratio": 1.5463576158940397
+      },
+      {
+        "id": 2,
+        "end": 11.96,
+        "seek": 0,
+        "text": " Dez minutos depois, você está assistindo um vídeo de unboxing de um mouse que você nem sabia que existia.",
+        "start": 6.640000000000001,
+        "tokens": [
+          50697, 1346, 89, 19421, 13880, 11, 2723, 3192, 4255, 10306, 1105,
+          8071, 368, 26266, 368, 1105, 9719, 631, 2723, 9939, 36388, 631, 2514,
+          654, 13, 50963
+        ],
+        "avg_logprob": -0.09808679782983029,
+        "temperature": 0,
+        "no_speech_prob": 0.00037408655043691397,
+        "compression_ratio": 1.5463576158940397
+      },
+      {
+        "id": 3,
+        "end": 16.740000000000002,
+        "seek": 0,
+        "text": " Pisca de novo. Está no Instagram, rolando feeds sem nem saber o que está procurando.",
+        "start": 12.44,
+        "tokens": [
+          50987, 43263, 496, 368, 18246, 13, 27304, 572, 5281, 11, 744, 16201,
+          23712, 4361, 9939, 12489, 277, 631, 3192, 9510, 374, 1806, 13, 51202
+        ],
+        "avg_logprob": -0.09808679782983029,
+        "temperature": 0,
+        "no_speech_prob": 0.00037408655043691397,
+        "compression_ratio": 1.5463576158940397
+      },
+      {
+        "id": 4,
+        "end": 20.240000000000002,
+        "seek": 0,
+        "text": " Duas horas se foram. A mente já está pesada.",
+        "start": 17.28,
+        "tokens": [
+          51229, 5153, 296, 19548, 369, 23102, 13, 316, 26577, 6242, 3192, 9262,
+          1538, 13, 51377
+        ],
+        "avg_logprob": -0.09808679782983029,
+        "temperature": 0,
+        "no_speech_prob": 0.00037408655043691397,
+        "compression_ratio": 1.5463576158940397
+      },
+      {
+        "id": 5,
+        "end": 24.02,
+        "seek": 0,
+        "text": " A culpa começa a bater. Mas a vontade de deitar no sofá",
+        "start": 20.56,
+        "tokens": [
+          51393, 316, 44870, 32568, 257, 25735, 13, 5224, 257, 47708, 368, 368,
+          3981, 572, 37259, 842, 51566
+        ],
+        "avg_logprob": -0.09808679782983029,
+        "temperature": 0,
+        "no_speech_prob": 0.00037408655043691397,
+        "compression_ratio": 1.5463576158940397
+      },
+      {
+        "id": 6,
+        "end": 27.54,
+        "seek": 0,
+        "text": " e abrir a Netflix vence. E lá se vai mais um dia.",
+        "start": 24.02,
+        "tokens": [
+          51566, 308, 27446, 257, 12778, 371, 655, 13, 462, 7453, 369, 4405,
+          2420, 1105, 6801, 13, 51742
+        ],
+        "avg_logprob": -0.09808679782983029,
+        "temperature": 0,
+        "no_speech_prob": 0.00037408655043691397,
+        "compression_ratio": 1.5463576158940397
+      },
+      {
+        "id": 7,
+        "end": 31.259999999999998,
+        "seek": 2754,
+        "text": " O mais bizarro é que você até queria fazer o que precisava.",
+        "start": 27.54,
+        "tokens": [
+          50365, 422, 2420, 7390, 289, 340, 1136, 631, 2723, 8784, 27955, 6736,
+          277, 631, 7974, 4061, 13, 50551
+        ],
+        "avg_logprob": -0.08006496014802353,
+        "temperature": 0,
+        "no_speech_prob": 0.0008426170097663999,
+        "compression_ratio": 1.7732342007434945
+      },
+      {
+        "id": 8,
+        "end": 35.14,
+        "seek": 2754,
+        "text": " Você até sabia o que tinha que fazer. Mas não fez.",
+        "start": 31.82,
+        "tokens": [
+          50579, 9781, 8784, 36388, 277, 631, 13574, 631, 6736, 13, 5224, 2431,
+          21714, 13, 50745
+        ],
+        "avg_logprob": -0.08006496014802353,
+        "temperature": 0,
+        "no_speech_prob": 0.0008426170097663999,
+        "compression_ratio": 1.7732342007434945
+      },
+      {
+        "id": 9,
+        "end": 39.74,
+        "seek": 2754,
+        "text": " E não é porque você é preguiçoso. Não é falta de força de vontade.",
+        "start": 35.62,
+        "tokens": [
+          50769, 462, 2431, 1136, 4021, 2723, 1136, 659, 2794, 72, 1138, 9869,
+          13, 8010, 1136, 22111, 368, 32878, 368, 47708, 13, 50975
+        ],
+        "avg_logprob": -0.08006496014802353,
+        "temperature": 0,
+        "no_speech_prob": 0.0008426170097663999,
+        "compression_ratio": 1.7732342007434945
+      },
+      {
+        "id": 10,
+        "end": 44.28,
+        "seek": 2754,
+        "text": " É mais profundo que isso. É como se existisse uma força invisível",
+        "start": 40.3,
+        "tokens": [
+          51003, 4922, 2420, 1740, 6043, 631, 4616, 13, 4922, 2617, 369, 2514,
+          7746, 2772, 32878, 13308, 13185, 51202
+        ],
+        "avg_logprob": -0.08006496014802353,
+        "temperature": 0,
+        "no_speech_prob": 0.0008426170097663999,
+        "compression_ratio": 1.7732342007434945
+      },
+      {
+        "id": 11,
+        "end": 47.56,
+        "seek": 2754,
+        "text": " dentro de você, te puxando para o oposto do que você quer.",
+        "start": 44.28,
+        "tokens": [
+          51202, 10856, 368, 2723, 11, 535, 2362, 87, 1806, 1690, 277, 999,
+          22756, 360, 631, 2723, 7083, 13, 51366
+        ],
+        "avg_logprob": -0.08006496014802353,
+        "temperature": 0,
+        "no_speech_prob": 0.0008426170097663999,
+        "compression_ratio": 1.7732342007434945
+      },
+      {
+        "id": 12,
+        "end": 50.5,
+        "seek": 2754,
+        "text": " E essa força tem nome. Procrastinação.",
+        "start": 47.94,
+        "tokens": [
+          51385, 462, 7208, 32878, 1383, 19003, 13, 1705, 66, 4148, 40788, 13,
+          51513
+        ],
+        "avg_logprob": -0.08006496014802353,
+        "temperature": 0,
+        "no_speech_prob": 0.0008426170097663999,
+        "compression_ratio": 1.7732342007434945
+      },
+      {
+        "id": 13,
+        "end": 55.56,
+        "seek": 2754,
+        "text": " A primeira mentira que você precisa matar hoje é a de que procrastinação é preguiça.",
+        "start": 50.980000000000004,
+        "tokens": [
+          51537, 316, 21158, 3074, 4271, 631, 2723, 18861, 39208, 13458, 1136,
+          257, 368, 631, 39306, 40788, 1136, 659, 2794, 72, 5297, 13, 51766
+        ],
+        "avg_logprob": -0.08006496014802353,
+        "temperature": 0,
+        "no_speech_prob": 0.0008426170097663999,
+        "compression_ratio": 1.7732342007434945
+      },
+      {
+        "id": 14,
+        "end": 57.519999999999996,
+        "seek": 2754,
+        "text": " Não é. É emoção.",
+        "start": 55.56,
+        "tokens": [51766, 8010, 1136, 13, 4922, 19611, 2917, 13, 51864],
+        "avg_logprob": -0.08006496014802353,
+        "temperature": 0,
+        "no_speech_prob": 0.0008426170097663999,
+        "compression_ratio": 1.7732342007434945
+      },
+      {
+        "id": 15,
+        "end": 60.82,
+        "seek": 5754,
+        "text": " Emoção mal processada. Mal compreendida.",
+        "start": 57.54,
+        "tokens": [
+          50365, 462, 3280, 2917, 2806, 1399, 1538, 13, 5746, 715, 265, 521,
+          2887, 13, 50529
+        ],
+        "avg_logprob": -0.20834197998046874,
+        "temperature": 0,
+        "no_speech_prob": 0.060840729624032974,
+        "compression_ratio": 2.0162337662337664
+      },
+      {
+        "id": 16,
+        "end": 65.42,
+        "seek": 5754,
+        "text": " Quando você vai fazer algo importante, estudar, conversar sobre algo difícil,",
+        "start": 60.82,
+        "tokens": [
+          50529, 18725, 2723, 4405, 6736, 8655, 9416, 11, 13542, 289, 11, 2615,
+          289, 5473, 8655, 17258, 11, 50759
+        ],
+        "avg_logprob": -0.20834197998046874,
+        "temperature": 0,
+        "no_speech_prob": 0.060840729624032974,
+        "compression_ratio": 2.0162337662337664
+      },
+      {
+        "id": 17,
+        "end": 68.7,
+        "seek": 5754,
+        "text": " terminar aquele projeto, a mente entra em modo de alerta.",
+        "start": 65.42,
+        "tokens": [
+          50759, 36246, 23640, 40679, 11, 257, 26577, 22284, 846, 16664, 368,
+          9615, 64, 13, 50923
+        ],
+        "avg_logprob": -0.20834197998046874,
+        "temperature": 0,
+        "no_speech_prob": 0.060840729624032974,
+        "compression_ratio": 2.0162337662337664
+      },
+      {
+        "id": 18,
+        "end": 71.62,
+        "seek": 5754,
+        "text": " Por quê? Porque ela detecta risco.",
+        "start": 68.7,
+        "tokens": [
+          50923, 5269, 28605, 30, 11287, 7175, 5531, 64, 2253, 1291, 13, 51069
+        ],
+        "avg_logprob": -0.20834197998046874,
+        "temperature": 0,
+        "no_speech_prob": 0.060840729624032974,
+        "compression_ratio": 2.0162337662337664
+      },
+      {
+        "id": 19,
+        "end": 76.82,
+        "seek": 5754,
+        "text": " Risco de fracasso. Risco de rejeição. Risco de fazer e não ser bom o suficiente.",
+        "start": 71.62,
+        "tokens": [
+          51069, 497, 8610, 368, 431, 43786, 539, 13, 497, 8610, 368, 319, 2884,
+          16661, 13, 497, 8610, 368, 6736, 308, 2431, 816, 7957, 277, 33958, 13,
+          51329
+        ],
+        "avg_logprob": -0.20834197998046874,
+        "temperature": 0,
+        "no_speech_prob": 0.060840729624032974,
+        "compression_ratio": 2.0162337662337664
+      },
+      {
+        "id": 20,
+        "end": 82.3,
+        "seek": 5754,
+        "text": " O nosso cérebro, ao contrário do que muita gente pensa, não foi feito para nos deixar felizes.",
+        "start": 76.82,
+        "tokens": [
+          51329, 422, 14347, 30560, 265, 9120, 11, 8130, 10273, 12657, 360, 631,
+          21025, 3788, 46909, 11, 2431, 6901, 31243, 1690, 3269, 19701, 11094,
+          5660, 13, 51603
+        ],
+        "avg_logprob": -0.20834197998046874,
+        "temperature": 0,
+        "no_speech_prob": 0.060840729624032974,
+        "compression_ratio": 2.0162337662337664
+      },
+      {
+        "id": 21,
+        "end": 85.86,
+        "seek": 5754,
+        "text": " Ele foi feito para nos manter vivos. E isso significa que ele prefere repetir o que está fazendo.",
+        "start": 82.3,
+        "tokens": [
+          51603, 8024, 6901, 31243, 1690, 3269, 48170, 11005, 329, 13, 462,
+          4616, 19957, 631, 1118, 18417, 323, 13645, 347, 277, 631, 3192, 20741,
+          13, 51781
+        ],
+        "avg_logprob": -0.20834197998046874,
+        "temperature": 0,
+        "no_speech_prob": 0.060840729624032974,
+        "compression_ratio": 2.0162337662337664
+      },
+      {
+        "id": 22,
+        "end": 86.82,
+        "seek": 5754,
+        "text": " E isso significa que ele prefere repetir o que está fazendo. E isso significa que ele prefere repetir o que está fazendo.",
+        "start": 85.86,
+        "tokens": [
+          51781, 462, 4616, 19957, 631, 1118, 18417, 323, 13645, 347, 277, 631,
+          3192, 20741, 13, 462, 4616, 19957, 631, 1118, 18417, 323, 13645, 347,
+          277, 631, 3192, 20741, 13, 51829
+        ],
+        "avg_logprob": -0.20834197998046874,
+        "temperature": 0,
+        "no_speech_prob": 0.060840729624032974,
+        "compression_ratio": 2.0162337662337664
+      },
+      {
+        "id": 23,
+        "end": 87.69999999999999,
+        "seek": 8682,
+        "text": " E isso significa que ele prefere repetir o que está fazendo. E isso significa que ele prefere repetir o que está fazendo.",
+        "start": 86.82,
+        "tokens": [
+          50365, 462, 4616, 19957, 631, 1118, 18417, 323, 13645, 347, 277, 631,
+          3192, 20741, 13, 462, 4616, 19957, 631, 1118, 18417, 323, 13645, 347,
+          277, 631, 3192, 20741, 13, 50409
+        ],
+        "avg_logprob": -0.20313089034136603,
+        "temperature": 0.2,
+        "no_speech_prob": 0.04906395822763443,
+        "compression_ratio": 2.3941368078175898
+      },
+      {
+        "id": 24,
+        "end": 89.89999999999999,
+        "seek": 8682,
+        "text": " E isso significa que ele prefere repetir o que está fazendo. E isso significa que ele prefere repetir o que está fazendo.",
+        "start": 87.69999999999999,
+        "tokens": [
+          50409, 462, 4616, 19957, 631, 1118, 18417, 323, 13645, 347, 277, 631,
+          3192, 20741, 13, 462, 4616, 19957, 631, 1118, 18417, 323, 13645, 347,
+          277, 631, 3192, 20741, 13, 50519
+        ],
+        "avg_logprob": -0.20313089034136603,
+        "temperature": 0.2,
+        "no_speech_prob": 0.04906395822763443,
+        "compression_ratio": 2.3941368078175898
+      },
+      {
+        "id": 25,
+        "end": 95.33999999999999,
+        "seek": 8682,
+        "text": " Então, quando bate a dúvida, a insegurança, o desconforto, ele sabota.",
+        "start": 89.89999999999999,
+        "tokens": [
+          50519, 6469, 11, 7770, 37936, 257, 39299, 32500, 11, 257, 33874, 70,
+          44214, 11, 277, 49801, 2728, 78, 11, 1118, 5560, 5377, 13, 50791
+        ],
+        "avg_logprob": -0.20313089034136603,
+        "temperature": 0.2,
+        "no_speech_prob": 0.04906395822763443,
+        "compression_ratio": 2.3941368078175898
+      },
+      {
+        "id": 26,
+        "end": 98.66,
+        "seek": 8682,
+        "text": " E você corre. Foge. Adia.",
+        "start": 95.33999999999999,
+        "tokens": [
+          50791, 462, 2723, 29731, 13, 8564, 432, 13, 1999, 654, 13, 50957
+        ],
+        "avg_logprob": -0.20313089034136603,
+        "temperature": 0.2,
+        "no_speech_prob": 0.04906395822763443,
+        "compression_ratio": 2.3941368078175898
+      },
+      {
+        "id": 27,
+        "end": 104.1,
+        "seek": 8682,
+        "text": " É como se sua mente dissesse, melhor não agora, vamos esperar o momento perfeito.",
+        "start": 98.66,
+        "tokens": [
+          50957, 4922, 2617, 369, 8233, 26577, 717, 6196, 405, 11, 13714, 2431,
+          9851, 11, 5295, 37577, 277, 9333, 680, 35417, 13, 51229
+        ],
+        "avg_logprob": -0.20313089034136603,
+        "temperature": 0.2,
+        "no_speech_prob": 0.04906395822763443,
+        "compression_ratio": 2.3941368078175898
+      },
+      {
+        "id": 28,
+        "end": 106.41999999999999,
+        "seek": 8682,
+        "text": " Só que esse momento nunca chega.",
+        "start": 104.1,
+        "tokens": [51229, 19961, 631, 6755, 9333, 13768, 40157, 13, 51345],
+        "avg_logprob": -0.20313089034136603,
+        "temperature": 0.2,
+        "no_speech_prob": 0.04906395822763443,
+        "compression_ratio": 2.3941368078175898
+      },
+      {
+        "id": 29,
+        "end": 111.61999999999999,
+        "seek": 8682,
+        "text": " E aí vem o ciclo. Você adia, se sente mal, adia mais, se sente pior.",
+        "start": 106.41999999999999,
+        "tokens": [
+          51345, 462, 7461, 19053, 277, 27464, 752, 13, 9781, 614, 654, 11, 369,
+          47214, 2806, 11, 614, 654, 2420, 11, 369, 47214, 45974, 13, 51605
+        ],
+        "avg_logprob": -0.20313089034136603,
+        "temperature": 0.2,
+        "no_speech_prob": 0.04906395822763443,
+        "compression_ratio": 2.3941368078175898
+      },
+      {
+        "id": 30,
+        "end": 114.82,
+        "seek": 8682,
+        "text": " E vai se convencendo de que tem algo errado com você.",
+        "start": 111.61999999999999,
+        "tokens": [
+          51605, 462, 4405, 369, 7158, 33199, 368, 631, 1383, 8655, 48571, 395,
+          2723, 13, 51765
+        ],
+        "avg_logprob": -0.20313089034136603,
+        "temperature": 0.2,
+        "no_speech_prob": 0.04906395822763443,
+        "compression_ratio": 2.3941368078175898
+      },
+      {
+        "id": 31,
+        "end": 114.85999999999999,
+        "seek": 8682,
+        "text": " E vai se convencendo de que tem algo errado com você.",
+        "start": 114.82,
+        "tokens": [
+          51765, 462, 4405, 369, 7158, 33199, 368, 631, 1383, 8655, 48571, 395,
+          2723, 13, 51767
+        ],
+        "avg_logprob": -0.20313089034136603,
+        "temperature": 0.2,
+        "no_speech_prob": 0.04906395822763443,
+        "compression_ratio": 2.3941368078175898
+      },
+      {
+        "id": 32,
+        "end": 116.78,
+        "seek": 8682,
+        "text": " A palavra procrastinar vem do latim, que significa que você está fazendo algo errado.",
+        "start": 114.85999999999999,
+        "tokens": [
+          51767, 316, 40960, 39306, 6470, 19053, 360, 4465, 332, 11, 631, 19957,
+          631, 2723, 3192, 20741, 8655, 48571, 13, 51863
+        ],
+        "avg_logprob": -0.20313089034136603,
+        "temperature": 0.2,
+        "no_speech_prob": 0.04906395822763443,
+        "compression_ratio": 2.3941368078175898
+      },
+      {
+        "id": 33,
+        "end": 119.98,
+        "seek": 11678,
+        "text": " Voltem, pro, à frente. E crastí-nos, amanhã.",
+        "start": 116.78,
+        "tokens": [
+          50365, 40332, 443, 11, 447, 11, 1531, 19873, 13, 462, 941, 525, 870,
+          12, 16751, 11, 42943, 36320, 13, 50525
+        ],
+        "avg_logprob": -0.37502255159265857,
+        "temperature": 0.8,
+        "no_speech_prob": 0.0059916735626757145,
+        "compression_ratio": 1.5777027027027026
+      },
+      {
+        "id": 34,
+        "end": 123.9,
+        "seek": 11678,
+        "text": " Ou seja, é jogar a responsabilidade para você do futuro",
+        "start": 119.98,
+        "tokens": [
+          50525, 11710, 13459, 11, 1136, 39248, 257, 29829, 6014, 1690, 2723,
+          360, 23953, 50721
+        ],
+        "avg_logprob": -0.37502255159265857,
+        "temperature": 0.8,
+        "no_speech_prob": 0.0059916735626757145,
+        "compression_ratio": 1.5777027027027026
+      },
+      {
+        "id": 35,
+        "end": 126.58,
+        "seek": 11678,
+        "text": " porque o você de agora não quer lidar com o desconforto.",
+        "start": 123.9,
+        "tokens": [
+          50721, 4021, 277, 2723, 368, 9851, 2431, 7083, 10252, 289, 395, 277,
+          49801, 2728, 78, 13, 50855
+        ],
+        "avg_logprob": -0.37502255159265857,
+        "temperature": 0.8,
+        "no_speech_prob": 0.0059916735626757145,
+        "compression_ratio": 1.5777027027027026
+      },
+      {
+        "id": 36,
+        "end": 130.38,
+        "seek": 11678,
+        "text": " É a mente dizendo, isso aqui é pesado, deixa pra depois.",
+        "start": 126.58,
+        "tokens": [
+          50855, 4922, 257, 26577, 47026, 11, 4616, 3871, 1136, 9262, 1573, 11,
+          26208, 3206, 13880, 13, 51045
+        ],
+        "avg_logprob": -0.37502255159265857,
+        "temperature": 0.8,
+        "no_speech_prob": 0.0059916735626757145,
+        "compression_ratio": 1.5777027027027026
+      },
+      {
+        "id": 37,
+        "end": 135.1,
+        "seek": 11678,
+        "text": " Só que o depois não resolve nada. Só acumula pressão.",
+        "start": 130.38,
+        "tokens": [
+          51045, 19961, 631, 277, 13880, 2431, 14151, 8096, 13, 19961, 41343,
+          3780, 1886, 1076, 13, 51281
+        ],
+        "avg_logprob": -0.37502255159265857,
+        "temperature": 0.8,
+        "no_speech_prob": 0.0059916735626757145,
+        "compression_ratio": 1.5777027027027026
+      },
+      {
+        "id": 38,
+        "end": 140.74,
+        "seek": 11678,
+        "text": " Muita gente acha que funciona melhor sob pressão, que só rende quando está no limite.",
+        "start": 135.1,
+        "tokens": [
+          51281, 376, 1983, 64, 3788, 37338, 631, 26210, 13714, 18253, 1886,
+          1076, 11, 631, 6238, 6125, 68, 7770, 3192, 572, 39946, 13, 51563
+        ],
+        "avg_logprob": -0.37502255159265857,
+        "temperature": 0.8,
+        "no_speech_prob": 0.0059916735626757145,
+        "compression_ratio": 1.5777027027027026
+      },
+      {
+        "id": 39,
+        "end": 146.74,
+        "seek": 11678,
+        "text": " Mas isso é mentira. A pressão só força uma ação desesperada, não uma ação de qualidade.",
+        "start": 140.74,
+        "tokens": [
+          51563, 5224, 4616, 1136, 3074, 4271, 13, 316, 1886, 1076, 6238, 32878,
+          2772, 257, 2917, 730, 34698, 1538, 11, 2431, 2772, 257, 2917, 368,
+          41501, 13, 51863
+        ],
+        "avg_logprob": -0.37502255159265857,
+        "temperature": 0.8,
+        "no_speech_prob": 0.0059916735626757145,
+        "compression_ratio": 1.5777027027027026
+      },
+      {
+        "id": 40,
+        "end": 151.66,
+        "seek": 14674,
+        "text": " E essa ideia de que você precisa estar com vontade para começar, esquece.",
+        "start": 146.74,
+        "tokens": [
+          50365, 462, 7208, 26409, 368, 631, 2723, 18861, 8755, 395, 47708,
+          1690, 24379, 11, 28147, 384, 13, 50611
+        ],
+        "avg_logprob": -0.09878670152767684,
+        "temperature": 0,
+        "no_speech_prob": 0.00031015116837807,
+        "compression_ratio": 1.6405693950177935
+      },
+      {
+        "id": 41,
+        "end": 153.46,
+        "seek": 14674,
+        "text": " Vontade é volátil.",
+        "start": 152.16,
+        "tokens": [50636, 691, 896, 762, 1136, 1996, 7656, 388, 13, 50701],
+        "avg_logprob": -0.09878670152767684,
+        "temperature": 0,
+        "no_speech_prob": 0.00031015116837807,
+        "compression_ratio": 1.6405693950177935
+      },
+      {
+        "id": 42,
+        "end": 157.92000000000002,
+        "seek": 14674,
+        "text": " O que sustenta uma rotina não é motivação, é consistência.",
+        "start": 153.94,
+        "tokens": [
+          50725, 422, 631, 5402, 8938, 2772, 4297, 1426, 2431, 1136, 5426, 6670,
+          11, 1136, 4603, 9322, 13, 50924
+        ],
+        "avg_logprob": -0.09878670152767684,
+        "temperature": 0,
+        "no_speech_prob": 0.00031015116837807,
+        "compression_ratio": 1.6405693950177935
+      },
+      {
+        "id": 43,
+        "end": 159.96,
+        "seek": 14674,
+        "text": " Só que aqui está o problema real.",
+        "start": 158.48000000000002,
+        "tokens": [50952, 19961, 631, 3871, 3192, 277, 12395, 957, 13, 51026],
+        "avg_logprob": -0.09878670152767684,
+        "temperature": 0,
+        "no_speech_prob": 0.00031015116837807,
+        "compression_ratio": 1.6405693950177935
+      },
+      {
+        "id": 44,
+        "end": 164.76000000000002,
+        "seek": 14674,
+        "text": " Mesmo sabendo de tudo isso, você continua preso, continua adiando.",
+        "start": 160.38,
+        "tokens": [
+          51047, 17485, 3280, 5560, 3999, 368, 9379, 4616, 11, 2723, 40861,
+          1183, 78, 11, 40861, 614, 72, 1806, 13, 51266
+        ],
+        "avg_logprob": -0.09878670152767684,
+        "temperature": 0,
+        "no_speech_prob": 0.00031015116837807,
+        "compression_ratio": 1.6405693950177935
+      },
+      {
+        "id": 45,
+        "end": 169.52,
+        "seek": 14674,
+        "text": " E aí você se pergunta, se eu entendo o problema, por que não consigo resolver?",
+        "start": 165.26000000000002,
+        "tokens": [
+          51291, 462, 7461, 2723, 369, 34908, 11, 369, 2228, 948, 3999, 277,
+          12395, 11, 1515, 631, 2431, 43688, 34480, 30, 51504
+        ],
+        "avg_logprob": -0.09878670152767684,
+        "temperature": 0,
+        "no_speech_prob": 0.00031015116837807,
+        "compression_ratio": 1.6405693950177935
+      },
+      {
+        "id": 46,
+        "end": 172.98000000000002,
+        "seek": 14674,
+        "text": " E a resposta está dentro do seu próprio cérebro.",
+        "start": 170.3,
+        "tokens": [
+          51543, 462, 257, 42126, 3192, 10856, 360, 7986, 36394, 30560, 265,
+          9120, 13, 51677
+        ],
+        "avg_logprob": -0.09878670152767684,
+        "temperature": 0,
+        "no_speech_prob": 0.00031015116837807,
+        "compression_ratio": 1.6405693950177935
+      },
+      {
+        "id": 47,
+        "end": 176.46,
+        "seek": 14674,
+        "text": " Quando você está ali rolando feed ou pulando de aba em aba,",
+        "start": 172.98000000000002,
+        "tokens": [
+          51677, 18725, 2723, 3192, 10198, 744, 16201, 3154, 2820, 8331, 1806,
+          368, 46981, 846, 46981, 11, 51851
+        ],
+        "avg_logprob": -0.09878670152767684,
+        "temperature": 0,
+        "no_speech_prob": 0.00031015116837807,
+        "compression_ratio": 1.6405693950177935
+      },
+      {
+        "id": 48,
+        "end": 181.82000000000002,
+        "seek": 17674,
+        "text": " seu cérebro está sendo bombardeado por dopamina, o neurotransmissor do prazer e da antecipação.",
+        "start": 176.8,
+        "tokens": [
+          50368, 7986, 30560, 265, 9120, 3192, 22589, 7851, 10866, 1573, 1515,
+          21900, 335, 1426, 11, 277, 43286, 25392, 76, 891, 284, 360, 3206,
+          4527, 308, 1120, 23411, 537, 4306, 2917, 13, 50619
+        ],
+        "avg_logprob": -0.08311164779151047,
+        "temperature": 0,
+        "no_speech_prob": 3.632675884546188e-7,
+        "compression_ratio": 1.5876623376623376
+      },
+      {
+        "id": 49,
+        "end": 186.70000000000002,
+        "seek": 17674,
+        "text": " O problema é que esse prazer é fácil, rápido, superficial.",
+        "start": 182.28,
+        "tokens": [
+          50642, 422, 12395, 1136, 631, 6755, 3206, 4527, 1136, 17474, 11,
+          24893, 11, 34622, 13, 50863
+        ],
+        "avg_logprob": -0.08311164779151047,
+        "temperature": 0,
+        "no_speech_prob": 3.632675884546188e-7,
+        "compression_ratio": 1.5876623376623376
+      },
+      {
+        "id": 50,
+        "end": 190.48000000000002,
+        "seek": 17674,
+        "text": " E o cérebro começa a se viciar nesse tipo de estímulo.",
+        "start": 187.36,
+        "tokens": [
+          50896, 462, 277, 30560, 265, 9120, 32568, 257, 369, 371, 8787, 289,
+          18270, 9746, 368, 871, 14569, 13455, 13, 51052
+        ],
+        "avg_logprob": -0.08311164779151047,
+        "temperature": 0,
+        "no_speech_prob": 3.632675884546188e-7,
+        "compression_ratio": 1.5876623376623376
+      },
+      {
+        "id": 51,
+        "end": 194.84,
+        "seek": 17674,
+        "text": " E quanto mais você se afunda nisso, mais difícil fica começar tarefas reais,",
+        "start": 190.94,
+        "tokens": [
+          51075, 462, 17820, 2420, 2723, 369, 3238, 11946, 297, 41279, 11, 2420,
+          17258, 16868, 24379, 49423, 69, 296, 34823, 11, 51270
+        ],
+        "avg_logprob": -0.08311164779151047,
+        "temperature": 0,
+        "no_speech_prob": 3.632675884546188e-7,
+        "compression_ratio": 1.5876623376623376
+      },
+      {
+        "id": 52,
+        "end": 198.22,
+        "seek": 17674,
+        "text": " que exigem esforço e não oferecem recompensa imediata.",
+        "start": 195.20000000000002,
+        "tokens": [
+          51288, 631, 454, 328, 443, 785, 2994, 8560, 308, 2431, 47084, 26422,
+          48000, 23364, 566, 10323, 3274, 13, 51439
+        ],
+        "avg_logprob": -0.08311164779151047,
+        "temperature": 0,
+        "no_speech_prob": 3.632675884546188e-7,
+        "compression_ratio": 1.5876623376623376
+      },
+      {
+        "id": 53,
+        "end": 201.46,
+        "seek": 17674,
+        "text": " A internet virou um parque de diversões infinito.",
+        "start": 198.66000000000003,
+        "tokens": [
+          51461, 316, 4705, 4107, 263, 1105, 971, 1077, 368, 6111, 6036, 7193,
+          3528, 13, 51601
+        ],
+        "avg_logprob": -0.08311164779151047,
+        "temperature": 0,
+        "no_speech_prob": 3.632675884546188e-7,
+        "compression_ratio": 1.5876623376623376
+      },
+      {
+        "id": 54,
+        "end": 206.56,
+        "seek": 17674,
+        "text": " Seu cérebro quer estímulo constante, e se você tenta tirar isso, ele reclama.",
+        "start": 201.56,
+        "tokens": [
+          51606, 1100, 84, 30560, 265, 9120, 7083, 871, 14569, 13455, 47343, 11,
+          308, 369, 2723, 7054, 64, 29239, 4616, 11, 1118, 850, 40868, 13, 51856
+        ],
+        "avg_logprob": -0.08311164779151047,
+        "temperature": 0,
+        "no_speech_prob": 3.632675884546188e-7,
+        "compression_ratio": 1.5876623376623376
+      },
+      {
+        "id": 55,
+        "end": 209.44,
+        "seek": 20674,
+        "text": " Fica inquieto. Te sabota.",
+        "start": 206.74,
+        "tokens": [
+          50365, 479, 2262, 13570, 1684, 78, 13, 1989, 5560, 5377, 13, 50500
+        ],
+        "avg_logprob": -0.24235462007068453,
+        "temperature": 0,
+        "no_speech_prob": 0.005177655257284641,
+        "compression_ratio": 1.5741935483870968
+      },
+      {
+        "id": 56,
+        "end": 212.94,
+        "seek": 20674,
+        "text": " A culpa não é sua. A culpa é do design.",
+        "start": 209.44,
+        "tokens": [
+          50500, 316, 44870, 2431, 1136, 8233, 13, 316, 44870, 1136, 360, 1715,
+          13, 50675
+        ],
+        "avg_logprob": -0.24235462007068453,
+        "temperature": 0,
+        "no_speech_prob": 0.005177655257284641,
+        "compression_ratio": 1.5741935483870968
+      },
+      {
+        "id": 57,
+        "end": 215.98000000000002,
+        "seek": 20674,
+        "text": " As redes sociais são feitas para te prender.",
+        "start": 212.94,
+        "tokens": [
+          50675, 1018, 16762, 45179, 8364, 579, 14182, 1690, 535, 9866, 260, 13,
+          50827
+        ],
+        "avg_logprob": -0.24235462007068453,
+        "temperature": 0,
+        "no_speech_prob": 0.005177655257284641,
+        "compression_ratio": 1.5741935483870968
+      },
+      {
+        "id": 58,
+        "end": 218.98000000000002,
+        "seek": 20674,
+        "text": " São algoritmos programados para manter sua atenção,",
+        "start": 215.98000000000002,
+        "tokens": [
+          50827, 22401, 3501, 50017, 3415, 1461, 4181, 1690, 48170, 8233, 39044,
+          11, 50977
+        ],
+        "avg_logprob": -0.24235462007068453,
+        "temperature": 0,
+        "no_speech_prob": 0.005177655257284641,
+        "compression_ratio": 1.5741935483870968
+      },
+      {
+        "id": 59,
+        "end": 222.58,
+        "seek": 20674,
+        "text": " explorando exatamente os gatilhos que sua mente tem menos controle.",
+        "start": 218.98000000000002,
+        "tokens": [
+          50977, 24765, 1806, 35937, 3003, 44092, 388, 17631, 631, 8233, 26577,
+          1383, 8902, 46215, 13, 51157
+        ],
+        "avg_logprob": -0.24235462007068453,
+        "temperature": 0,
+        "no_speech_prob": 0.005177655257284641,
+        "compression_ratio": 1.5741935483870968
+      },
+      {
+        "id": 60,
+        "end": 227.74,
+        "seek": 20674,
+        "text": " E quanto mais tempo você passa ali, mais o seu cérebro enfraquece a parte que toma decisões difíceis",
+        "start": 222.58,
+        "tokens": [
+          51157, 462, 17820, 2420, 8972, 2723, 23880, 10198, 11, 2420, 277,
+          7986, 30560, 265, 9120, 10667, 424, 1077, 384, 257, 6975, 631, 39728,
+          18206, 6036, 16774, 384, 271, 51415
+        ],
+        "avg_logprob": -0.24235462007068453,
+        "temperature": 0,
+        "no_speech_prob": 0.005177655257284641,
+        "compression_ratio": 1.5741935483870968
+      },
+      {
+        "id": 61,
+        "end": 230.58,
+        "seek": 20674,
+        "text": " e pensa no longo prazo, o córtex pré-frontal.",
+        "start": 227.74,
+        "tokens": [
+          51415, 308, 46909, 572, 40558, 3206, 4765, 11, 277, 6333, 81, 975, 87,
+          11127, 12, 11496, 304, 13, 51557
+        ],
+        "avg_logprob": -0.24235462007068453,
+        "temperature": 0,
+        "no_speech_prob": 0.005177655257284641,
+        "compression_ratio": 1.5741935483870968
+      },
+      {
+        "id": 62,
+        "end": 234.96,
+        "seek": 20674,
+        "text": " A primeira coisa que você precisa entender é, não tem hack milagroso.",
+        "start": 230.58,
+        "tokens": [
+          51557, 316, 21158, 9614, 631, 2723, 18861, 20054, 1136, 11, 2431,
+          1383, 10339, 1962, 559, 2635, 78, 13, 51776
+        ],
+        "avg_logprob": -0.24235462007068453,
+        "temperature": 0,
+        "no_speech_prob": 0.005177655257284641,
+        "compression_ratio": 1.5741935483870968
+      },
+      {
+        "id": 63,
+        "end": 236.68,
+        "seek": 20674,
+        "text": " Não tem botão mágico.",
+        "start": 234.96,
+        "tokens": [51776, 8010, 1383, 10592, 1076, 12228, 70, 2789, 13, 51862],
+        "avg_logprob": -0.24235462007068453,
+        "temperature": 0,
+        "no_speech_prob": 0.005177655257284641,
+        "compression_ratio": 1.5741935483870968
+      },
+      {
+        "id": 64,
+        "end": 240.84,
+        "seek": 23668,
+        "text": " Tem hábito. E hábito exige desconforto no início.",
+        "start": 237.04000000000002,
+        "tokens": [
+          50383, 8095, 16448, 65, 3528, 13, 462, 16448, 65, 3528, 454, 3969,
+          49801, 2728, 78, 572, 45979, 13, 50573
+        ],
+        "avg_logprob": -0.3005293694095335,
+        "temperature": 0,
+        "no_speech_prob": 0.00844067893922329,
+        "compression_ratio": 1.6564885496183206
+      },
+      {
+        "id": 65,
+        "end": 243.4,
+        "seek": 23668,
+        "text": " Mas um desconforto que vale a pena.",
+        "start": 240.84,
+        "tokens": [
+          50573, 5224, 1105, 49801, 2728, 78, 631, 15474, 257, 29222, 13, 50701
+        ],
+        "avg_logprob": -0.3005293694095335,
+        "temperature": 0,
+        "no_speech_prob": 0.00844067893922329,
+        "compression_ratio": 1.6564885496183206
+      },
+      {
+        "id": 66,
+        "end": 246.52,
+        "seek": 23668,
+        "text": " Porque é ele que começa a reeducar seu cérebro.",
+        "start": 243.4,
+        "tokens": [
+          50701, 11287, 1136, 1118, 631, 32568, 257, 319, 32604, 289, 7986,
+          30560, 265, 9120, 13, 50857
+        ],
+        "avg_logprob": -0.3005293694095335,
+        "temperature": 0,
+        "no_speech_prob": 0.00844067893922329,
+        "compression_ratio": 1.6564885496183206
+      },
+      {
+        "id": 67,
+        "end": 250.16,
+        "seek": 23668,
+        "text": " O segredo, começar pela coisa mais difícil.",
+        "start": 246.52,
+        "tokens": [
+          50857, 422, 3896, 986, 78, 11, 24379, 14820, 9614, 2420, 17258, 13,
+          51039
+        ],
+        "avg_logprob": -0.3005293694095335,
+        "temperature": 0,
+        "no_speech_prob": 0.00844067893922329,
+        "compression_ratio": 1.6564885496183206
+      },
+      {
+        "id": 68,
+        "end": 254.28,
+        "seek": 23668,
+        "text": " Sim, a mais difícil. A que você está evitando.",
+        "start": 250.16,
+        "tokens": [
+          51039, 3998, 11, 257, 2420, 17258, 13, 316, 631, 2723, 3192, 1073,
+          270, 1806, 13, 51245
+        ],
+        "avg_logprob": -0.3005293694095335,
+        "temperature": 0,
+        "no_speech_prob": 0.00844067893922329,
+        "compression_ratio": 1.6564885496183206
+      },
+      {
+        "id": 69,
+        "end": 256.44,
+        "seek": 23668,
+        "text": " Isso se chama comer o sapo.",
+        "start": 254.28,
+        "tokens": [51245, 14887, 369, 40954, 16510, 277, 18985, 78, 13, 51353],
+        "avg_logprob": -0.3005293694095335,
+        "temperature": 0,
+        "no_speech_prob": 0.00844067893922329,
+        "compression_ratio": 1.6564885496183206
+      },
+      {
+        "id": 70,
+        "end": 259.72,
+        "seek": 23668,
+        "text": " Parece cruel. É, mas funciona.",
+        "start": 256.44,
+        "tokens": [51353, 45419, 16022, 13, 4922, 11, 2300, 26210, 13, 51517],
+        "avg_logprob": -0.3005293694095335,
+        "temperature": 0,
+        "no_speech_prob": 0.00844067893922329,
+        "compression_ratio": 1.6564885496183206
+      },
+      {
+        "id": 71,
+        "end": 264.8,
+        "seek": 23668,
+        "text": " Porque quando você começa o dia vencendo o maior obstáculo, o resto fica mais leve.",
+        "start": 259.72,
+        "tokens": [
+          51517, 11287, 7770, 2723, 32568, 277, 6801, 6138, 33199, 277, 15859,
+          9579, 842, 25436, 11, 277, 28247, 16868, 2420, 33076, 13, 51771
+        ],
+        "avg_logprob": -0.3005293694095335,
+        "temperature": 0,
+        "no_speech_prob": 0.00844067893922329,
+        "compression_ratio": 1.6564885496183206
+      },
+      {
+        "id": 72,
+        "end": 266.42,
+        "seek": 23668,
+        "text": " Seu cérebro entende que o pior é o que você faz.",
+        "start": 264.8,
+        "tokens": [
+          51771, 1100, 84, 30560, 265, 9120, 948, 5445, 631, 277, 45974, 1136,
+          277, 631, 2723, 4375, 13, 51852
+        ],
+        "avg_logprob": -0.3005293694095335,
+        "temperature": 0,
+        "no_speech_prob": 0.00844067893922329,
+        "compression_ratio": 1.6564885496183206
+      },
+      {
+        "id": 73,
+        "end": 267.86,
+        "seek": 26642,
+        "text": " E o pior já passou.",
+        "start": 266.42,
+        "tokens": [50365, 462, 277, 45974, 6242, 44740, 13, 50437],
+        "avg_logprob": -0.291532589839055,
+        "temperature": 0,
+        "no_speech_prob": 0.0005441947723738849,
+        "compression_ratio": 1.5787781350482315
+      },
+      {
+        "id": 74,
+        "end": 271.86,
+        "seek": 26642,
+        "text": " E aí você começa a gerar o que importa de verdade. Impulso.",
+        "start": 267.86,
+        "tokens": [
+          50437, 462, 7461, 2723, 32568, 257, 5713, 289, 277, 631, 33218, 368,
+          15203, 13, 8270, 425, 539, 13, 50637
+        ],
+        "avg_logprob": -0.291532589839055,
+        "temperature": 0,
+        "no_speech_prob": 0.0005441947723738849,
+        "compression_ratio": 1.5787781350482315
+      },
+      {
+        "id": 75,
+        "end": 275.38,
+        "seek": 26642,
+        "text": " Pensa numa bola de neve. Começa pequena.",
+        "start": 271.86,
+        "tokens": [
+          50637, 430, 23364, 29080, 41110, 368, 408, 303, 13, 2492, 5297, 26758,
+          4118, 13, 50813
+        ],
+        "avg_logprob": -0.291532589839055,
+        "temperature": 0,
+        "no_speech_prob": 0.0005441947723738849,
+        "compression_ratio": 1.5787781350482315
+      },
+      {
+        "id": 76,
+        "end": 278.06,
+        "seek": 26642,
+        "text": " Mas à medida que rola, ela cresce.",
+        "start": 275.38,
+        "tokens": [
+          50813, 5224, 1531, 32984, 631, 744, 875, 11, 7175, 20964, 384, 13,
+          50947
+        ],
+        "avg_logprob": -0.291532589839055,
+        "temperature": 0,
+        "no_speech_prob": 0.0005441947723738849,
+        "compression_ratio": 1.5787781350482315
+      },
+      {
+        "id": 77,
+        "end": 280.28000000000003,
+        "seek": 26642,
+        "text": " É assim que funciona o impulso.",
+        "start": 278.06,
+        "tokens": [50947, 4922, 8249, 631, 26210, 277, 41767, 539, 13, 51058],
+        "avg_logprob": -0.291532589839055,
+        "temperature": 0,
+        "no_speech_prob": 0.0005441947723738849,
+        "compression_ratio": 1.5787781350482315
+      },
+      {
+        "id": 78,
+        "end": 283.70000000000005,
+        "seek": 26642,
+        "text": " Você começa fazendo só cinco minutos da tarefa.",
+        "start": 280.28000000000003,
+        "tokens": [
+          51058, 9781, 32568, 20741, 6238, 21350, 19421, 1120, 49423, 11771, 13,
+          51229
+        ],
+        "avg_logprob": -0.291532589839055,
+        "temperature": 0,
+        "no_speech_prob": 0.0005441947723738849,
+        "compression_ratio": 1.5787781350482315
+      },
+      {
+        "id": 79,
+        "end": 285.3,
+        "seek": 26642,
+        "text": " Só um parágrafo.",
+        "start": 283.70000000000005,
+        "tokens": [51229, 19961, 1105, 971, 21099, 10437, 78, 13, 51309],
+        "avg_logprob": -0.291532589839055,
+        "temperature": 0,
+        "no_speech_prob": 0.0005441947723738849,
+        "compression_ratio": 1.5787781350482315
+      },
+      {
+        "id": 80,
+        "end": 287.64,
+        "seek": 26642,
+        "text": " Só organizando os materiais.",
+        "start": 285.3,
+        "tokens": [51309, 19961, 4645, 1806, 3003, 34083, 271, 13, 51426],
+        "avg_logprob": -0.291532589839055,
+        "temperature": 0,
+        "no_speech_prob": 0.0005441947723738849,
+        "compression_ratio": 1.5787781350482315
+      },
+      {
+        "id": 81,
+        "end": 289.8,
+        "seek": 26642,
+        "text": " E aí o corpo entra no ritmo.",
+        "start": 287.64,
+        "tokens": [
+          51426, 462, 7461, 277, 23257, 22284, 572, 11289, 3280, 13, 51534
+        ],
+        "avg_logprob": -0.291532589839055,
+        "temperature": 0,
+        "no_speech_prob": 0.0005441947723738849,
+        "compression_ratio": 1.5787781350482315
+      },
+      {
+        "id": 82,
+        "end": 291.84000000000003,
+        "seek": 26642,
+        "text": " A mente para de resistir.",
+        "start": 289.8,
+        "tokens": [51534, 316, 26577, 1690, 368, 4597, 347, 13, 51636],
+        "avg_logprob": -0.291532589839055,
+        "temperature": 0,
+        "no_speech_prob": 0.0005441947723738849,
+        "compression_ratio": 1.5787781350482315
+      },
+      {
+        "id": 83,
+        "end": 294.28000000000003,
+        "seek": 26642,
+        "text": " O mais difícil sempre é o começo.",
+        "start": 291.84000000000003,
+        "tokens": [51636, 422, 2420, 17258, 9553, 1136, 277, 48958, 13, 51758],
+        "avg_logprob": -0.291532589839055,
+        "temperature": 0,
+        "no_speech_prob": 0.0005441947723738849,
+        "compression_ratio": 1.5787781350482315
+      },
+      {
+        "id": 84,
+        "end": 294.78000000000003,
+        "seek": 26642,
+        "text": " Mas aí vem a pegadinha.",
+        "start": 294.28000000000003,
+        "tokens": [51758, 5224, 7461, 19053, 257, 17199, 345, 6727, 13, 51783],
+        "avg_logprob": -0.291532589839055,
+        "temperature": 0,
+        "no_speech_prob": 0.0005441947723738849,
+        "compression_ratio": 1.5787781350482315
+      },
+      {
+        "id": 85,
+        "end": 295.78000000000003,
+        "seek": 26642,
+        "text": " Mesmo quando você está com a cabeça aberta, você não consegue fazer nada.",
+        "start": 294.78000000000003,
+        "tokens": [
+          51783, 17485, 3280, 7770, 2723, 3192, 395, 257, 33056, 410, 22765, 11,
+          2723, 2431, 27179, 6736, 8096, 13, 51833
+        ],
+        "avg_logprob": -0.291532589839055,
+        "temperature": 0,
+        "no_speech_prob": 0.0005441947723738849,
+        "compression_ratio": 1.5787781350482315
+      },
+      {
+        "id": 86,
+        "end": 299.35999999999996,
+        "seek": 29578,
+        "text": " Mesmo quando você começa, vai ter dias que parecem um inferno.",
+        "start": 295.78,
+        "tokens": [
+          50365, 17485, 3280, 7770, 2723, 32568, 11, 4405, 1796, 21084, 631,
+          14120, 76, 1105, 13596, 1771, 13, 50544
+        ],
+        "avg_logprob": -0.20338633289075878,
+        "temperature": 0,
+        "no_speech_prob": 0.00002127788684447296,
+        "compression_ratio": 1.6344086021505377
+      },
+      {
+        "id": 87,
+        "end": 302.17999999999995,
+        "seek": 29578,
+        "text": " Dias que você tenta sentar e não consegue.",
+        "start": 299.35999999999996,
+        "tokens": [
+          50544, 413, 4609, 631, 2723, 7054, 64, 2279, 289, 308, 2431, 27179,
+          13, 50685
+        ],
+        "avg_logprob": -0.20338633289075878,
+        "temperature": 0,
+        "no_speech_prob": 0.00002127788684447296,
+        "compression_ratio": 1.6344086021505377
+      },
+      {
+        "id": 88,
+        "end": 304.14,
+        "seek": 29578,
+        "text": " Que parece que nada flui.",
+        "start": 302.17999999999995,
+        "tokens": [50685, 4493, 14120, 631, 8096, 932, 3077, 13, 50783],
+        "avg_logprob": -0.20338633289075878,
+        "temperature": 0,
+        "no_speech_prob": 0.00002127788684447296,
+        "compression_ratio": 1.6344086021505377
+      },
+      {
+        "id": 89,
+        "end": 307.41999999999996,
+        "seek": 29578,
+        "text": " E você pensa, será que eu voltei para a estaca zero?",
+        "start": 304.14,
+        "tokens": [
+          50783, 462, 2723, 46909, 11, 16502, 631, 2228, 37801, 72, 1690, 257,
+          871, 6628, 4018, 30, 50947
+        ],
+        "avg_logprob": -0.20338633289075878,
+        "temperature": 0,
+        "no_speech_prob": 0.00002127788684447296,
+        "compression_ratio": 1.6344086021505377
+      },
+      {
+        "id": 90,
+        "end": 309.97999999999996,
+        "seek": 29578,
+        "text": " Não. Você não voltou.",
+        "start": 307.41999999999996,
+        "tokens": [50947, 8010, 13, 9781, 2431, 5962, 263, 13, 51075],
+        "avg_logprob": -0.20338633289075878,
+        "temperature": 0,
+        "no_speech_prob": 0.00002127788684447296,
+        "compression_ratio": 1.6344086021505377
+      },
+      {
+        "id": 91,
+        "end": 313.82,
+        "seek": 29578,
+        "text": " Você só está enfrentando o segundo chefe, o perfeccionismo.",
+        "start": 309.97999999999996,
+        "tokens": [
+          51075, 9781, 6238, 3192, 33771, 1806, 277, 17954, 947, 2106, 11, 277,
+          680, 2106, 1914, 313, 6882, 13, 51267
+        ],
+        "avg_logprob": -0.20338633289075878,
+        "temperature": 0,
+        "no_speech_prob": 0.00002127788684447296,
+        "compression_ratio": 1.6344086021505377
+      },
+      {
+        "id": 92,
+        "end": 317.7,
+        "seek": 29578,
+        "text": " O perfeccionismo é o sabotador disfarçado de exigência.",
+        "start": 313.82,
+        "tokens": [
+          51267, 422, 680, 2106, 1914, 313, 6882, 1136, 277, 37167, 5409, 717,
+          21196, 1138, 1573, 368, 454, 328, 9322, 13, 51461
+        ],
+        "avg_logprob": -0.20338633289075878,
+        "temperature": 0,
+        "no_speech_prob": 0.00002127788684447296,
+        "compression_ratio": 1.6344086021505377
+      },
+      {
+        "id": 93,
+        "end": 322.5,
+        "seek": 29578,
+        "text": " Ele te convence de que, se não for para fazer perfeito, é melhor nem começar.",
+        "start": 317.7,
+        "tokens": [
+          51461, 8024, 535, 7158, 384, 368, 631, 11, 369, 2431, 337, 1690, 6736,
+          680, 35417, 11, 1136, 13714, 9939, 24379, 13, 51701
+        ],
+        "avg_logprob": -0.20338633289075878,
+        "temperature": 0,
+        "no_speech_prob": 0.00002127788684447296,
+        "compression_ratio": 1.6344086021505377
+      },
+      {
+        "id": 94,
+        "end": 324.17999999999995,
+        "seek": 29578,
+        "text": " Mas isso é só medo.",
+        "start": 322.5,
+        "tokens": [51701, 5224, 4616, 1136, 6238, 37144, 13, 51785],
+        "avg_logprob": -0.20338633289075878,
+        "temperature": 0,
+        "no_speech_prob": 0.00002127788684447296,
+        "compression_ratio": 1.6344086021505377
+      },
+      {
+        "id": 95,
+        "end": 325.67999999999995,
+        "seek": 29578,
+        "text": " Medo de falhar.",
+        "start": 324.17999999999995,
+        "tokens": [51785, 3982, 78, 368, 3704, 5854, 13, 51860],
+        "avg_logprob": -0.20338633289075878,
+        "temperature": 0,
+        "no_speech_prob": 0.00002127788684447296,
+        "compression_ratio": 1.6344086021505377
+      },
+      {
+        "id": 96,
+        "end": 327.53999999999996,
+        "seek": 32578,
+        "text": " Medo de fazer feio.",
+        "start": 325.78,
+        "tokens": [50365, 3982, 78, 368, 6736, 579, 1004, 13, 50453],
+        "avg_logprob": -0.16786951258562613,
+        "temperature": 0,
+        "no_speech_prob": 0.0005315591697581112,
+        "compression_ratio": 1.569811320754717
+      },
+      {
+        "id": 97,
+        "end": 330.5,
+        "seek": 32578,
+        "text": " Medo de mostrar algo que ainda não está pronto.",
+        "start": 327.53999999999996,
+        "tokens": [
+          50453, 3982, 78, 368, 21487, 8655, 631, 11804, 2431, 3192, 26194, 13,
+          50601
+        ],
+        "avg_logprob": -0.16786951258562613,
+        "temperature": 0,
+        "no_speech_prob": 0.0005315591697581112,
+        "compression_ratio": 1.569811320754717
+      },
+      {
+        "id": 98,
+        "end": 332.41999999999996,
+        "seek": 32578,
+        "text": " E aí você paralisa.",
+        "start": 330.5,
+        "tokens": [50601, 462, 7461, 2723, 26009, 3837, 13, 50697],
+        "avg_logprob": -0.16786951258562613,
+        "temperature": 0,
+        "no_speech_prob": 0.0005315591697581112,
+        "compression_ratio": 1.569811320754717
+      },
+      {
+        "id": 99,
+        "end": 334.46,
+        "seek": 32578,
+        "text": " Travado pelo medo de errar.",
+        "start": 332.41999999999996,
+        "tokens": [
+          50697, 5403, 85, 1573, 12167, 37144, 368, 1189, 5352, 13, 50799
+        ],
+        "avg_logprob": -0.16786951258562613,
+        "temperature": 0,
+        "no_speech_prob": 0.0005315591697581112,
+        "compression_ratio": 1.569811320754717
+      },
+      {
+        "id": 100,
+        "end": 335.91999999999996,
+        "seek": 32578,
+        "text": " De ser julgado.",
+        "start": 334.46,
+        "tokens": [50799, 1346, 816, 30764, 30135, 13, 50872],
+        "avg_logprob": -0.16786951258562613,
+        "temperature": 0,
+        "no_speech_prob": 0.0005315591697581112,
+        "compression_ratio": 1.569811320754717
+      },
+      {
+        "id": 101,
+        "end": 337.5,
+        "seek": 32578,
+        "text": " Mas olha em volta.",
+        "start": 335.91999999999996,
+        "tokens": [50872, 5224, 23550, 846, 18765, 13, 50951],
+        "avg_logprob": -0.16786951258562613,
+        "temperature": 0,
+        "no_speech_prob": 0.0005315591697581112,
+        "compression_ratio": 1.569811320754717
+      },
+      {
+        "id": 102,
+        "end": 342.79999999999995,
+        "seek": 32578,
+        "text": " As pessoas que você admira, as que fazem, as que vão para frente, erram o tempo todo.",
+        "start": 337.5,
+        "tokens": [
+          50951, 1018, 10021, 631, 2723, 5910, 4271, 11, 382, 631, 41748, 11,
+          382, 631, 18766, 1690, 19873, 11, 1189, 2356, 277, 8972, 5149, 13,
+          51216
+        ],
+        "avg_logprob": -0.16786951258562613,
+        "temperature": 0,
+        "no_speech_prob": 0.0005315591697581112,
+        "compression_ratio": 1.569811320754717
+      },
+      {
+        "id": 103,
+        "end": 344.4,
+        "seek": 32578,
+        "text": " Elas só não param.",
+        "start": 342.79999999999995,
+        "tokens": [51216, 2699, 296, 6238, 2431, 6220, 13, 51296],
+        "avg_logprob": -0.16786951258562613,
+        "temperature": 0,
+        "no_speech_prob": 0.0005315591697581112,
+        "compression_ratio": 1.569811320754717
+      },
+      {
+        "id": 104,
+        "end": 347.47999999999996,
+        "seek": 32578,
+        "text": " Elas aprendem com o erro, ajustam e seguem.",
+        "start": 344.4,
+        "tokens": [
+          51296, 2699, 296, 21003, 443, 395, 277, 45935, 11, 41023, 335, 308,
+          8878, 443, 13, 51450
+        ],
+        "avg_logprob": -0.16786951258562613,
+        "temperature": 0,
+        "no_speech_prob": 0.0005315591697581112,
+        "compression_ratio": 1.569811320754717
+      },
+      {
+        "id": 105,
+        "end": 349.55999999999995,
+        "seek": 32578,
+        "text": " O fracasso é feedback.",
+        "start": 347.47999999999996,
+        "tokens": [51450, 422, 431, 43786, 539, 1136, 5824, 13, 51554],
+        "avg_logprob": -0.16786951258562613,
+        "temperature": 0,
+        "no_speech_prob": 0.0005315591697581112,
+        "compression_ratio": 1.569811320754717
+      },
+      {
+        "id": 106,
+        "end": 350.96,
+        "seek": 32578,
+        "text": " Não sentença.",
+        "start": 349.55999999999995,
+        "tokens": [51554, 8010, 2279, 48866, 13, 51624],
+        "avg_logprob": -0.16786951258562613,
+        "temperature": 0,
+        "no_speech_prob": 0.0005315591697581112,
+        "compression_ratio": 1.569811320754717
+      },
+      {
+        "id": 107,
+        "end": 355.26,
+        "seek": 32578,
+        "text": " Você pode até tentar fazer tudo perfeito, mas vai acabar travando.",
+        "start": 350.96,
+        "tokens": [
+          51624, 9781, 7468, 8784, 33572, 6736, 9379, 680, 35417, 11, 2300,
+          4405, 35041, 11783, 1806, 13, 51839
+        ],
+        "avg_logprob": -0.16786951258562613,
+        "temperature": 0,
+        "no_speech_prob": 0.0005315591697581112,
+        "compression_ratio": 1.569811320754717
+      },
+      {
+        "id": 108,
+        "end": 360.14,
+        "seek": 35526,
+        "text": " Como naquela vez que você deixou de entregar um trabalho porque achou que ele ainda não estava bom.",
+        "start": 355.26,
+        "tokens": [
+          50365, 11913, 1667, 41462, 5715, 631, 2723, 9963, 263, 368, 3962,
+          2976, 1105, 20834, 4021, 2800, 263, 631, 1118, 11804, 2431, 15662,
+          7957, 13, 50609
+        ],
+        "avg_logprob": -0.2578665625970095,
+        "temperature": 0,
+        "no_speech_prob": 0.0015486617339774966,
+        "compression_ratio": 1.6938775510204083
+      },
+      {
+        "id": 109,
+        "end": 361.9,
+        "seek": 35526,
+        "text": " E aí entregou nada.",
+        "start": 360.14,
+        "tokens": [50609, 462, 7461, 32843, 263, 8096, 13, 50697],
+        "avg_logprob": -0.2578665625970095,
+        "temperature": 0,
+        "no_speech_prob": 0.0015486617339774966,
+        "compression_ratio": 1.6938775510204083
+      },
+      {
+        "id": 110,
+        "end": 367.26,
+        "seek": 35526,
+        "text": " Ou aquela ideia de vídeo, de projeto, que ficou na gaveta porque não estava no ponto.",
+        "start": 361.9,
+        "tokens": [
+          50697, 11710, 25996, 26409, 368, 8071, 11, 368, 40679, 11, 631, 25518,
+          1667, 290, 706, 7664, 4021, 2431, 15662, 572, 17936, 13, 50965
+        ],
+        "avg_logprob": -0.2578665625970095,
+        "temperature": 0,
+        "no_speech_prob": 0.0015486617339774966,
+        "compression_ratio": 1.6938775510204083
+      },
+      {
+        "id": 111,
+        "end": 368.76,
+        "seek": 35526,
+        "text": " E passou o timing.",
+        "start": 367.26,
+        "tokens": [50965, 462, 44740, 277, 10822, 13, 51040],
+        "avg_logprob": -0.2578665625970095,
+        "temperature": 0,
+        "no_speech_prob": 0.0015486617339774966,
+        "compression_ratio": 1.6938775510204083
+      },
+      {
+        "id": 112,
+        "end": 370.24,
+        "seek": 35526,
+        "text": " Passou a chance.",
+        "start": 368.76,
+        "tokens": [51040, 10319, 263, 257, 2931, 13, 51114],
+        "avg_logprob": -0.2578665625970095,
+        "temperature": 0,
+        "no_speech_prob": 0.0015486617339774966,
+        "compression_ratio": 1.6938775510204083
+      },
+      {
+        "id": 113,
+        "end": 372.02,
+        "seek": 35526,
+        "text": " Você ficou para trás.",
+        "start": 370.24,
+        "tokens": [51114, 9781, 25518, 1690, 46189, 13, 51203],
+        "avg_logprob": -0.2578665625970095,
+        "temperature": 0,
+        "no_speech_prob": 0.0015486617339774966,
+        "compression_ratio": 1.6938775510204083
+      },
+      {
+        "id": 114,
+        "end": 374.64,
+        "seek": 35526,
+        "text": " Você não precisa ser brilhante hoje.",
+        "start": 372.02,
+        "tokens": [
+          51203, 9781, 2431, 18861, 816, 738, 388, 71, 2879, 13458, 13, 51334
+        ],
+        "avg_logprob": -0.2578665625970095,
+        "temperature": 0,
+        "no_speech_prob": 0.0015486617339774966,
+        "compression_ratio": 1.6938775510204083
+      },
+      {
+        "id": 115,
+        "end": 376.98,
+        "seek": 35526,
+        "text": " Só precisa ser consistente.",
+        "start": 374.64,
+        "tokens": [51334, 19961, 18861, 816, 4603, 1576, 13, 51451],
+        "avg_logprob": -0.2578665625970095,
+        "temperature": 0,
+        "no_speech_prob": 0.0015486617339774966,
+        "compression_ratio": 1.6938775510204083
+      },
+      {
+        "id": 116,
+        "end": 378.09999999999997,
+        "seek": 35526,
+        "text": " Repetir.",
+        "start": 376.98,
+        "tokens": [51451, 3696, 302, 347, 13, 51507],
+        "avg_logprob": -0.2578665625970095,
+        "temperature": 0,
+        "no_speech_prob": 0.0015486617339774966,
+        "compression_ratio": 1.6938775510204083
+      },
+      {
+        "id": 117,
+        "end": 379.02,
+        "seek": 35526,
+        "text": " Treinar.",
+        "start": 378.09999999999997,
+        "tokens": [51507, 8648, 6470, 13, 51553],
+        "avg_logprob": -0.2578665625970095,
+        "temperature": 0,
+        "no_speech_prob": 0.0015486617339774966,
+        "compression_ratio": 1.6938775510204083
+      },
+      {
+        "id": 118,
+        "end": 379.9,
+        "seek": 35526,
+        "text": " Testar.",
+        "start": 379.02,
+        "tokens": [51553, 9279, 289, 13, 51597],
+        "avg_logprob": -0.2578665625970095,
+        "temperature": 0,
+        "no_speech_prob": 0.0015486617339774966,
+        "compression_ratio": 1.6938775510204083
+      },
+      {
+        "id": 119,
+        "end": 384.74,
+        "seek": 35526,
+        "text": " E aceitar que no início vai ser ruim, vai ser difícil, vai dar vontade de parar.",
+        "start": 379.9,
+        "tokens": [
+          51597, 462, 17117, 3981, 631, 572, 45979, 4405, 816, 33871, 11, 4405,
+          816, 17258, 11, 4405, 4072, 47708, 368, 37193, 13, 51839
+        ],
+        "avg_logprob": -0.2578665625970095,
+        "temperature": 0,
+        "no_speech_prob": 0.0015486617339774966,
+        "compression_ratio": 1.6938775510204083
+      },
+      {
+        "id": 120,
+        "end": 385.09999999999997,
+        "seek": 35526,
+        "text": " Mas se você não está pronto, vai ter que parar.",
+        "start": 384.74,
+        "tokens": [
+          51839, 5224, 369, 2723, 2431, 3192, 26194, 11, 4405, 1796, 631, 37193,
+          13, 51857
+        ],
+        "avg_logprob": -0.2578665625970095,
+        "temperature": 0,
+        "no_speech_prob": 0.0015486617339774966,
+        "compression_ratio": 1.6938775510204083
+      },
+      {
+        "id": 121,
+        "end": 387.34000000000003,
+        "seek": 38510,
+        "text": " Mas se você parar, nada muda.",
+        "start": 385.1,
+        "tokens": [
+          50365, 5224, 369, 2723, 37193, 11, 8096, 8933, 64, 13, 50477
+        ],
+        "avg_logprob": -0.121337890625,
+        "temperature": 0,
+        "no_speech_prob": 0.0073954276740550995,
+        "compression_ratio": 1.5147058823529411
+      },
+      {
+        "id": 122,
+        "end": 390.54,
+        "seek": 38510,
+        "text": " E para continuar, você vai precisar de mais uma arma.",
+        "start": 387.34000000000003,
+        "tokens": [
+          50477, 462, 1690, 29980, 11, 2723, 4405, 7974, 289, 368, 2420, 2772,
+          46422, 13, 50637
+        ],
+        "avg_logprob": -0.121337890625,
+        "temperature": 0,
+        "no_speech_prob": 0.0073954276740550995,
+        "compression_ratio": 1.5147058823529411
+      },
+      {
+        "id": 123,
+        "end": 391.86,
+        "seek": 38510,
+        "text": " Dopamina real.",
+        "start": 390.54,
+        "tokens": [50637, 42657, 335, 1426, 957, 13, 50703],
+        "avg_logprob": -0.121337890625,
+        "temperature": 0,
+        "no_speech_prob": 0.0073954276740550995,
+        "compression_ratio": 1.5147058823529411
+      },
+      {
+        "id": 124,
+        "end": 395.08000000000004,
+        "seek": 38510,
+        "text": " Aquela que não vem do celular, mas do progresso.",
+        "start": 391.86,
+        "tokens": [
+          50703, 8728, 4053, 631, 2431, 19053, 360, 32378, 11, 2300, 360, 447,
+          70, 29652, 13, 50864
+        ],
+        "avg_logprob": -0.121337890625,
+        "temperature": 0,
+        "no_speech_prob": 0.0073954276740550995,
+        "compression_ratio": 1.5147058823529411
+      },
+      {
+        "id": 125,
+        "end": 397.94,
+        "seek": 38510,
+        "text": " Sim, seu cérebro adora dopamina.",
+        "start": 395.08000000000004,
+        "tokens": [
+          50864, 3998, 11, 7986, 30560, 265, 9120, 614, 3252, 21900, 335, 1426,
+          13, 51007
+        ],
+        "avg_logprob": -0.121337890625,
+        "temperature": 0,
+        "no_speech_prob": 0.0073954276740550995,
+        "compression_ratio": 1.5147058823529411
+      },
+      {
+        "id": 126,
+        "end": 400.08000000000004,
+        "seek": 38510,
+        "text": " Então use isso ao seu favor.",
+        "start": 397.94,
+        "tokens": [51007, 6469, 764, 4616, 8130, 7986, 2294, 13, 51114],
+        "avg_logprob": -0.121337890625,
+        "temperature": 0,
+        "no_speech_prob": 0.0073954276740550995,
+        "compression_ratio": 1.5147058823529411
+      },
+      {
+        "id": 127,
+        "end": 401.92,
+        "seek": 38510,
+        "text": " Crie pequenos marcos.",
+        "start": 400.08000000000004,
+        "tokens": [51114, 4779, 414, 26758, 20161, 1849, 6877, 13, 51206],
+        "avg_logprob": -0.121337890625,
+        "temperature": 0,
+        "no_speech_prob": 0.0073954276740550995,
+        "compression_ratio": 1.5147058823529411
+      },
+      {
+        "id": 128,
+        "end": 403.88,
+        "seek": 38510,
+        "text": " Pequenas recompensas.",
+        "start": 401.92,
+        "tokens": [51206, 2396, 358, 11581, 48000, 694, 296, 13, 51304],
+        "avg_logprob": -0.121337890625,
+        "temperature": 0,
+        "no_speech_prob": 0.0073954276740550995,
+        "compression_ratio": 1.5147058823529411
+      },
+      {
+        "id": 129,
+        "end": 405.6,
+        "seek": 38510,
+        "text": " Terminou uma tarefa?",
+        "start": 403.88,
+        "tokens": [51304, 19835, 259, 263, 2772, 49423, 11771, 30, 51390],
+        "avg_logprob": -0.121337890625,
+        "temperature": 0,
+        "no_speech_prob": 0.0073954276740550995,
+        "compression_ratio": 1.5147058823529411
+      },
+      {
+        "id": 130,
+        "end": 407.04,
+        "seek": 38510,
+        "text": " Dá um descanso.",
+        "start": 405.6,
+        "tokens": [51390, 49794, 1105, 730, 7035, 539, 13, 51462],
+        "avg_logprob": -0.121337890625,
+        "temperature": 0,
+        "no_speech_prob": 0.0073954276740550995,
+        "compression_ratio": 1.5147058823529411
+      },
+      {
+        "id": 131,
+        "end": 409.3,
+        "seek": 38510,
+        "text": " Fez tudo o que prometeu para hoje?",
+        "start": 407.04,
+        "tokens": [
+          51462, 3697, 89, 9379, 277, 631, 37786, 23685, 1690, 13458, 30, 51575
+        ],
+        "avg_logprob": -0.121337890625,
+        "temperature": 0,
+        "no_speech_prob": 0.0073954276740550995,
+        "compression_ratio": 1.5147058823529411
+      },
+      {
+        "id": 132,
+        "end": 411.5,
+        "seek": 38510,
+        "text": " Se permita algo prazeroso.",
+        "start": 409.3,
+        "tokens": [51575, 1100, 4784, 2786, 8655, 3206, 4527, 9869, 13, 51685],
+        "avg_logprob": -0.121337890625,
+        "temperature": 0,
+        "no_speech_prob": 0.0073954276740550995,
+        "compression_ratio": 1.5147058823529411
+      },
+      {
+        "id": 133,
+        "end": 414.98,
+        "seek": 38510,
+        "text": " Associe o esforço com prazer, e não com sofrimento.",
+        "start": 411.5,
+        "tokens": [
+          51685, 1018, 539, 4260, 277, 785, 2994, 8560, 395, 3206, 4527, 11,
+          308, 2431, 395, 370, 5779, 10030, 13, 51859
+        ],
+        "avg_logprob": -0.121337890625,
+        "temperature": 0,
+        "no_speech_prob": 0.0073954276740550995,
+        "compression_ratio": 1.5147058823529411
+      },
+      {
+        "id": 134,
+        "end": 418,
+        "seek": 41510,
+        "text": " Aqui entra o ponto mais delicado de todos.",
+        "start": 415.1,
+        "tokens": [
+          50365, 23089, 22284, 277, 17936, 2420, 29831, 1573, 368, 6321, 13,
+          50510
+        ],
+        "avg_logprob": -0.10585551230323235,
+        "temperature": 0,
+        "no_speech_prob": 0.0018672398291528225,
+        "compression_ratio": 1.542857142857143
+      },
+      {
+        "id": 135,
+        "end": 420.14000000000004,
+        "seek": 41510,
+        "text": " O vício no estímulo fácil.",
+        "start": 418,
+        "tokens": [
+          50510, 422, 6153, 8529, 572, 871, 14569, 13455, 17474, 13, 50617
+        ],
+        "avg_logprob": -0.10585551230323235,
+        "temperature": 0,
+        "no_speech_prob": 0.0018672398291528225,
+        "compression_ratio": 1.542857142857143
+      },
+      {
+        "id": 136,
+        "end": 425,
+        "seek": 41510,
+        "text": " Porque quanto mais você se recompensa com prazer instantâneo, redes sociais, doces,",
+        "start": 420.14000000000004,
+        "tokens": [
+          50617, 11287, 17820, 2420, 2723, 369, 48000, 23364, 395, 3206, 4527,
+          9836, 3201, 42164, 11, 16762, 45179, 11, 360, 887, 11, 50860
+        ],
+        "avg_logprob": -0.10585551230323235,
+        "temperature": 0,
+        "no_speech_prob": 0.0018672398291528225,
+        "compression_ratio": 1.542857142857143
+      },
+      {
+        "id": 137,
+        "end": 429.34000000000003,
+        "seek": 41510,
+        "text": " distrações, mais difícil é fazer o cérebro gostar do que exige esforço.",
+        "start": 425,
+        "tokens": [
+          50860, 1483, 424, 8001, 11, 2420, 17258, 1136, 6736, 277, 30560, 265,
+          9120, 13188, 289, 360, 631, 454, 3969, 785, 2994, 8560, 13, 51077
+        ],
+        "avg_logprob": -0.10585551230323235,
+        "temperature": 0,
+        "no_speech_prob": 0.0018672398291528225,
+        "compression_ratio": 1.542857142857143
+      },
+      {
+        "id": 138,
+        "end": 432.12,
+        "seek": 41510,
+        "text": " A balança da dopamina se desequilibra.",
+        "start": 429.34000000000003,
+        "tokens": [
+          51077, 316, 3119, 22930, 1120, 21900, 335, 1426, 369, 730, 12816,
+          12722, 424, 13, 51216
+        ],
+        "avg_logprob": -0.10585551230323235,
+        "temperature": 0,
+        "no_speech_prob": 0.0018672398291528225,
+        "compression_ratio": 1.542857142857143
+      },
+      {
+        "id": 139,
+        "end": 434.3,
+        "seek": 41510,
+        "text": " O prazer fácil custa caro.",
+        "start": 432.12,
+        "tokens": [
+          51216, 422, 3206, 4527, 17474, 14884, 64, 1032, 78, 13, 51325
+        ],
+        "avg_logprob": -0.10585551230323235,
+        "temperature": 0,
+        "no_speech_prob": 0.0018672398291528225,
+        "compression_ratio": 1.542857142857143
+      },
+      {
+        "id": 140,
+        "end": 435.54,
+        "seek": 41510,
+        "text": " A solução?",
+        "start": 434.3,
+        "tokens": [51325, 316, 24807, 2917, 30, 51387],
+        "avg_logprob": -0.10585551230323235,
+        "temperature": 0,
+        "no_speech_prob": 0.0018672398291528225,
+        "compression_ratio": 1.542857142857143
+      },
+      {
+        "id": 141,
+        "end": 437.38,
+        "seek": 41510,
+        "text": " Dopamina de verdade.",
+        "start": 435.54,
+        "tokens": [51387, 42657, 335, 1426, 368, 15203, 13, 51479],
+        "avg_logprob": -0.10585551230323235,
+        "temperature": 0,
+        "no_speech_prob": 0.0018672398291528225,
+        "compression_ratio": 1.542857142857143
+      },
+      {
+        "id": 142,
+        "end": 438.5,
+        "seek": 41510,
+        "text": " Do tédio.",
+        "start": 437.38,
+        "tokens": [51479, 1144, 256, 7811, 1004, 13, 51535],
+        "avg_logprob": -0.10585551230323235,
+        "temperature": 0,
+        "no_speech_prob": 0.0018672398291528225,
+        "compression_ratio": 1.542857142857143
+      },
+      {
+        "id": 143,
+        "end": 440.26000000000005,
+        "seek": 41510,
+        "text": " Sim, do tédio.",
+        "start": 438.5,
+        "tokens": [51535, 3998, 11, 360, 256, 7811, 1004, 13, 51623],
+        "avg_logprob": -0.10585551230323235,
+        "temperature": 0,
+        "no_speech_prob": 0.0018672398291528225,
+        "compression_ratio": 1.542857142857143
+      },
+      {
+        "id": 144,
+        "end": 441.62,
+        "seek": 41510,
+        "text": " Sabe por quê?",
+        "start": 440.26000000000005,
+        "tokens": [51623, 318, 4488, 1515, 28605, 30, 51691],
+        "avg_logprob": -0.10585551230323235,
+        "temperature": 0,
+        "no_speech_prob": 0.0018672398291528225,
+        "compression_ratio": 1.542857142857143
+      },
+      {
+        "id": 145,
+        "end": 444.74,
+        "seek": 41510,
+        "text": " Porque é no tédio que a mente organiza as ideias.",
+        "start": 441.62,
+        "tokens": [
+          51691, 11287, 1136, 572, 256, 7811, 1004, 631, 257, 26577, 4645, 64,
+          382, 1153, 4609, 13, 51847
+        ],
+        "avg_logprob": -0.10585551230323235,
+        "temperature": 0,
+        "no_speech_prob": 0.0018672398291528225,
+        "compression_ratio": 1.542857142857143
+      },
+      {
+        "id": 146,
+        "end": 445.74,
+        "seek": 44474,
+        "text": " Cria.",
+        "start": 444.74,
+        "tokens": [50365, 383, 4668, 13, 50415],
+        "avg_logprob": -0.2175662289759156,
+        "temperature": 0,
+        "no_speech_prob": 0.000137651470140554,
+        "compression_ratio": 1.5426829268292683
+      },
+      {
+        "id": 147,
+        "end": 446.74,
+        "seek": 44474,
+        "text": " Processa.",
+        "start": 445.74,
+        "tokens": [50415, 31093, 64, 13, 50465],
+        "avg_logprob": -0.2175662289759156,
+        "temperature": 0,
+        "no_speech_prob": 0.000137651470140554,
+        "compression_ratio": 1.5426829268292683
+      },
+      {
+        "id": 148,
+        "end": 451.14,
+        "seek": 44474,
+        "text": " Se você não aguenta ficar entediado, nunca vai suportar o silêncio necessário para",
+        "start": 446.74,
+        "tokens": [
+          50465, 1100, 2723, 2431, 34438, 8938, 13646, 948, 10323, 1573, 11,
+          13768, 4405, 459, 2707, 289, 277, 3425, 5050, 8529, 2688, 12657, 1690,
+          50685
+        ],
+        "avg_logprob": -0.2175662289759156,
+        "temperature": 0,
+        "no_speech_prob": 0.000137651470140554,
+        "compression_ratio": 1.5426829268292683
+      },
+      {
+        "id": 149,
+        "end": 452.72,
+        "seek": 44474,
+        "text": " produzir algo grande.",
+        "start": 451.14,
+        "tokens": [50685, 28093, 347, 8655, 8883, 13, 50764],
+        "avg_logprob": -0.2175662289759156,
+        "temperature": 0,
+        "no_speech_prob": 0.000137651470140554,
+        "compression_ratio": 1.5426829268292683
+      },
+      {
+        "id": 150,
+        "end": 454.6,
+        "seek": 44474,
+        "text": " Começa com coisas pequenas.",
+        "start": 452.72,
+        "tokens": [50764, 2492, 5297, 395, 14567, 26758, 11581, 13, 50858],
+        "avg_logprob": -0.2175662289759156,
+        "temperature": 0,
+        "no_speech_prob": 0.000137651470140554,
+        "compression_ratio": 1.5426829268292683
+      },
+      {
+        "id": 151,
+        "end": 457.32,
+        "seek": 44474,
+        "text": " Deixe o celular longe por 30 minutos.",
+        "start": 454.6,
+        "tokens": [
+          50858, 1346, 42369, 277, 32378, 26052, 1515, 2217, 19421, 13, 50994
+        ],
+        "avg_logprob": -0.2175662289759156,
+        "temperature": 0,
+        "no_speech_prob": 0.000137651470140554,
+        "compression_ratio": 1.5426829268292683
+      },
+      {
+        "id": 152,
+        "end": 459.28000000000003,
+        "seek": 44474,
+        "text": " Vá caminhar sem música.",
+        "start": 457.32,
+        "tokens": [50994, 691, 842, 1945, 259, 5854, 4361, 20091, 13, 51092],
+        "avg_logprob": -0.2175662289759156,
+        "temperature": 0,
+        "no_speech_prob": 0.000137651470140554,
+        "compression_ratio": 1.5426829268292683
+      },
+      {
+        "id": 153,
+        "end": 460.98,
+        "seek": 44474,
+        "text": " Tome um banho gelado.",
+        "start": 459.28000000000003,
+        "tokens": [51092, 314, 423, 1105, 5643, 1289, 4087, 1573, 13, 51177],
+        "avg_logprob": -0.2175662289759156,
+        "temperature": 0,
+        "no_speech_prob": 0.000137651470140554,
+        "compression_ratio": 1.5426829268292683
+      },
+      {
+        "id": 154,
+        "end": 464.22,
+        "seek": 44474,
+        "text": " Não porque é moda, mas porque exige presença.",
+        "start": 460.98,
+        "tokens": [
+          51177, 8010, 4021, 1136, 1072, 64, 11, 2300, 4021, 454, 3969, 1183,
+          48866, 13, 51339
+        ],
+        "avg_logprob": -0.2175662289759156,
+        "temperature": 0,
+        "no_speech_prob": 0.000137651470140554,
+        "compression_ratio": 1.5426829268292683
+      },
+      {
+        "id": 155,
+        "end": 467.74,
+        "seek": 44474,
+        "text": " Porque dói no momento, mas te traz clareza depois.",
+        "start": 464.22,
+        "tokens": [
+          51339, 11287, 18816, 72, 572, 9333, 11, 2300, 535, 37481, 596, 543,
+          2394, 13880, 13, 51515
+        ],
+        "avg_logprob": -0.2175662289759156,
+        "temperature": 0,
+        "no_speech_prob": 0.000137651470140554,
+        "compression_ratio": 1.5426829268292683
+      },
+      {
+        "id": 156,
+        "end": 472.84000000000003,
+        "seek": 44474,
+        "text": " O desconforto físico às vezes é a única coisa que te arranca do entorpecimento digital.",
+        "start": 467.74,
+        "tokens": [
+          51515, 422, 49801, 2728, 78, 27538, 2789, 23763, 12925, 1136, 257,
+          30104, 9614, 631, 535, 50235, 496, 360, 948, 284, 494, 28317, 4562,
+          13, 51770
+        ],
+        "avg_logprob": -0.2175662289759156,
+        "temperature": 0,
+        "no_speech_prob": 0.000137651470140554,
+        "compression_ratio": 1.5426829268292683
+      },
+      {
+        "id": 157,
+        "end": 473.74,
+        "seek": 44474,
+        "text": " Você procrastina porque se sente mal.",
+        "start": 472.84000000000003,
+        "tokens": [51770, 9781, 39306, 1426, 4021, 369, 47214, 2806, 13, 51815],
+        "avg_logprob": -0.2175662289759156,
+        "temperature": 0,
+        "no_speech_prob": 0.000137651470140554,
+        "compression_ratio": 1.5426829268292683
+      },
+      {
+        "id": 158,
+        "end": 474.74,
+        "seek": 44474,
+        "text": " Você não consegue se sentir bem.",
+        "start": 473.74,
+        "tokens": [51815, 9781, 2431, 27179, 369, 23963, 7577, 13, 51865],
+        "avg_logprob": -0.2175662289759156,
+        "temperature": 0,
+        "no_speech_prob": 0.000137651470140554,
+        "compression_ratio": 1.5426829268292683
+      },
+      {
+        "id": 159,
+        "end": 475.74,
+        "seek": 47474,
+        "text": " Você está completamente preso.",
+        "start": 474.74,
+        "tokens": [50365, 9781, 3192, 28381, 1183, 78, 13, 50415],
+        "avg_logprob": -0.17925522292869678,
+        "temperature": 0,
+        "no_speech_prob": 0.004467060323804617,
+        "compression_ratio": 1.5494505494505495
+      },
+      {
+        "id": 160,
+        "end": 479.88,
+        "seek": 47474,
+        "text": " Preso ao medo, ao julgamento, ao peso da expectativa.",
+        "start": 475.74,
+        "tokens": [
+          50415, 2718, 78, 8130, 37144, 11, 8130, 30764, 70, 8824, 11, 8130,
+          28149, 1120, 2066, 18740, 13, 50622
+        ],
+        "avg_logprob": -0.17925522292869678,
+        "temperature": 0,
+        "no_speech_prob": 0.004467060323804617,
+        "compression_ratio": 1.5494505494505495
+      },
+      {
+        "id": 161,
+        "end": 484.2,
+        "seek": 47474,
+        "text": " Mas também porque se viciou na recompensa rápida, fácil, descartável.",
+        "start": 479.88,
+        "tokens": [
+          50622, 5224, 6274, 4021, 369, 371, 8787, 263, 1667, 48000, 23364,
+          18213, 2887, 11, 17474, 11, 7471, 446, 20224, 13, 50838
+        ],
+        "avg_logprob": -0.17925522292869678,
+        "temperature": 0,
+        "no_speech_prob": 0.004467060323804617,
+        "compression_ratio": 1.5494505494505495
+      },
+      {
+        "id": 162,
+        "end": 488.56,
+        "seek": 47474,
+        "text": " E sair disso exige mais do que força de vontade.",
+        "start": 484.2,
+        "tokens": [
+          50838, 462, 29157, 20088, 454, 3969, 2420, 360, 631, 32878, 368,
+          47708, 13, 51056
+        ],
+        "avg_logprob": -0.17925522292869678,
+        "temperature": 0,
+        "no_speech_prob": 0.004467060323804617,
+        "compression_ratio": 1.5494505494505495
+      },
+      {
+        "id": 163,
+        "end": 489.7,
+        "seek": 47474,
+        "text": " Exige autocompaixão.",
+        "start": 488.56,
+        "tokens": [51056, 2111, 3969, 45833, 298, 4306, 970, 1076, 13, 51113],
+        "avg_logprob": -0.17925522292869678,
+        "temperature": 0,
+        "no_speech_prob": 0.004467060323804617,
+        "compression_ratio": 1.5494505494505495
+      },
+      {
+        "id": 164,
+        "end": 491.74,
+        "seek": 47474,
+        "text": " Sim, você vai falhar.",
+        "start": 489.7,
+        "tokens": [51113, 3998, 11, 2723, 4405, 3704, 5854, 13, 51215],
+        "avg_logprob": -0.17925522292869678,
+        "temperature": 0,
+        "no_speech_prob": 0.004467060323804617,
+        "compression_ratio": 1.5494505494505495
+      },
+      {
+        "id": 165,
+        "end": 493.94,
+        "seek": 47474,
+        "text": " Sim, vai cair de novo.",
+        "start": 491.74,
+        "tokens": [51215, 3998, 11, 4405, 269, 1246, 368, 18246, 13, 51325],
+        "avg_logprob": -0.17925522292869678,
+        "temperature": 0,
+        "no_speech_prob": 0.004467060323804617,
+        "compression_ratio": 1.5494505494505495
+      },
+      {
+        "id": 166,
+        "end": 495.06,
+        "seek": 47474,
+        "text": " E tudo bem.",
+        "start": 493.94,
+        "tokens": [51325, 462, 9379, 7577, 13, 51381],
+        "avg_logprob": -0.17925522292869678,
+        "temperature": 0,
+        "no_speech_prob": 0.004467060323804617,
+        "compression_ratio": 1.5494505494505495
+      },
+      {
+        "id": 167,
+        "end": 497.46000000000004,
+        "seek": 47474,
+        "text": " O jogo não é sobre nunca errar.",
+        "start": 495.06,
+        "tokens": [
+          51381, 422, 20068, 2431, 1136, 5473, 13768, 1189, 5352, 13, 51501
+        ],
+        "avg_logprob": -0.17925522292869678,
+        "temperature": 0,
+        "no_speech_prob": 0.004467060323804617,
+        "compression_ratio": 1.5494505494505495
+      },
+      {
+        "id": 168,
+        "end": 500.82,
+        "seek": 47474,
+        "text": " É sobre cair e levantar mais rápido.",
+        "start": 497.46000000000004,
+        "tokens": [
+          51501, 4922, 5473, 269, 1246, 308, 30612, 289, 2420, 24893, 13, 51669
+        ],
+        "avg_logprob": -0.17925522292869678,
+        "temperature": 0,
+        "no_speech_prob": 0.004467060323804617,
+        "compression_ratio": 1.5494505494505495
+      },
+      {
+        "id": 169,
+        "end": 503.74,
+        "seek": 47474,
+        "text": " Sobre não se sabotar por dias só porque teve um dia ruim.",
+        "start": 500.82,
+        "tokens": [
+          51669, 407, 2672, 2431, 369, 37167, 289, 1515, 21084, 6238, 4021,
+          26628, 1105, 6801, 33871, 13, 51815
+        ],
+        "avg_logprob": -0.17925522292869678,
+        "temperature": 0,
+        "no_speech_prob": 0.004467060323804617,
+        "compression_ratio": 1.5494505494505495
+      },
+      {
+        "id": 170,
+        "end": 508.36,
+        "seek": 50374,
+        "text": " Sobre construir um sistema que te lembre quem você quer ser, mesmo nos dias em que",
+        "start": 503.74,
+        "tokens": [
+          50365, 407, 2672, 38445, 1105, 13245, 631, 535, 7495, 2672, 13026,
+          2723, 7083, 816, 11, 9082, 3269, 21084, 846, 631, 50596
+        ],
+        "avg_logprob": -0.14515328694538898,
+        "temperature": 0,
+        "no_speech_prob": 0.00017264767666347325,
+        "compression_ratio": 1.5025641025641026
+      },
+      {
+        "id": 171,
+        "end": 509.90000000000003,
+        "seek": 50374,
+        "text": " tudo parece cinza.",
+        "start": 508.36,
+        "tokens": [50596, 9379, 14120, 6539, 2394, 13, 50673],
+        "avg_logprob": -0.14515328694538898,
+        "temperature": 0,
+        "no_speech_prob": 0.00017264767666347325,
+        "compression_ratio": 1.5025641025641026
+      },
+      {
+        "id": 172,
+        "end": 515.04,
+        "seek": 50374,
+        "text": " E quando você achar que está atrasado, lembra, não existe caminho certo.",
+        "start": 509.90000000000003,
+        "tokens": [
+          50673, 462, 7770, 2723, 2800, 289, 631, 3192, 412, 3906, 1573, 11,
+          7495, 6198, 11, 2431, 16304, 37215, 22261, 13, 50930
+        ],
+        "avg_logprob": -0.14515328694538898,
+        "temperature": 0,
+        "no_speech_prob": 0.00017264767666347325,
+        "compression_ratio": 1.5025641025641026
+      },
+      {
+        "id": 173,
+        "end": 516.48,
+        "seek": 50374,
+        "text": " Existe o seu caminho.",
+        "start": 515.04,
+        "tokens": [50930, 2111, 8375, 277, 7986, 37215, 13, 51002],
+        "avg_logprob": -0.14515328694538898,
+        "temperature": 0,
+        "no_speech_prob": 0.00017264767666347325,
+        "compression_ratio": 1.5025641025641026
+      },
+      {
+        "id": 174,
+        "end": 519.58,
+        "seek": 50374,
+        "text": " Ele começa exatamente onde você está.",
+        "start": 516.48,
+        "tokens": [51002, 8024, 32568, 35937, 14396, 2723, 3192, 13, 51157],
+        "avg_logprob": -0.14515328694538898,
+        "temperature": 0,
+        "no_speech_prob": 0.00017264767666347325,
+        "compression_ratio": 1.5025641025641026
+      },
+      {
+        "id": 175,
+        "end": 520.58,
+        "seek": 50374,
+        "text": " Agora.",
+        "start": 519.58,
+        "tokens": [51157, 16023, 13, 51207],
+        "avg_logprob": -0.14515328694538898,
+        "temperature": 0,
+        "no_speech_prob": 0.00017264767666347325,
+        "compression_ratio": 1.5025641025641026
+      },
+      {
+        "id": 176,
+        "end": 521.74,
+        "seek": 50374,
+        "text": " E só depende de você dar o primeiro passo.",
+        "start": 520.58,
+        "tokens": [
+          51207, 462, 6238, 47091, 368, 2723, 4072, 277, 18314, 38159, 13, 51265
+        ],
+        "avg_logprob": -0.14515328694538898,
+        "temperature": 0,
+        "no_speech_prob": 0.00017264767666347325,
+        "compression_ratio": 1.5025641025641026
+      }
+    ],
+    "translation": null,
+    "transcription": " Você já passou por isso. Senta para estudar ou trabalhar e pensa só vou dar uma olhadinha no YouTube rapidinho. Dez minutos depois, você está assistindo um vídeo de unboxing de um mouse que você nem sabia que existia. Pisca de novo. Está no Instagram, rolando feeds sem nem saber o que está procurando. Duas horas se foram. A mente já está pesada. A culpa começa a bater. Mas a vontade de deitar no sofá e abrir a Netflix vence. E lá se vai mais um dia. O mais bizarro é que você até queria fazer o que precisava. Você até sabia o que tinha que fazer. Mas não fez. E não é porque você é preguiçoso. Não é falta de força de vontade. É mais profundo que isso. É como se existisse uma força invisível dentro de você, te puxando para o oposto do que você quer. E essa força tem nome. Procrastinação. A primeira mentira que você precisa matar hoje é a de que procrastinação é preguiça. Não é. É emoção. Emoção mal processada. Mal compreendida. Quando você vai fazer algo importante, estudar, conversar sobre algo difícil, terminar aquele projeto, a mente entra em modo de alerta. Por quê? Porque ela detecta risco. Risco de fracasso. Risco de rejeição. Risco de fazer e não ser bom o suficiente. O nosso cérebro, ao contrário do que muita gente pensa, não foi feito para nos deixar felizes. Ele foi feito para nos manter vivos. E isso significa que ele prefere repetir o que está fazendo. E isso significa que ele prefere repetir o que está fazendo. E isso significa que ele prefere repetir o que está fazendo. E isso significa que ele prefere repetir o que está fazendo. E isso significa que ele prefere repetir o que está fazendo. E isso significa que ele prefere repetir o que está fazendo. E isso significa que ele prefere repetir o que está fazendo. Então, quando bate a dúvida, a insegurança, o desconforto, ele sabota. E você corre. Foge. Adia. É como se sua mente dissesse, melhor não agora, vamos esperar o momento perfeito. Só que esse momento nunca chega. E aí vem o ciclo. Você adia, se sente mal, adia mais, se sente pior. E vai se convencendo de que tem algo errado com você. E vai se convencendo de que tem algo errado com você. A palavra procrastinar vem do latim, que significa que você está fazendo algo errado. Voltem, pro, à frente. E crastí-nos, amanhã. Ou seja, é jogar a responsabilidade para você do futuro porque o você de agora não quer lidar com o desconforto. É a mente dizendo, isso aqui é pesado, deixa pra depois. Só que o depois não resolve nada. Só acumula pressão. Muita gente acha que funciona melhor sob pressão, que só rende quando está no limite. Mas isso é mentira. A pressão só força uma ação desesperada, não uma ação de qualidade. E essa ideia de que você precisa estar com vontade para começar, esquece. Vontade é volátil. O que sustenta uma rotina não é motivação, é consistência. Só que aqui está o problema real. Mesmo sabendo de tudo isso, você continua preso, continua adiando. E aí você se pergunta, se eu entendo o problema, por que não consigo resolver? E a resposta está dentro do seu próprio cérebro. Quando você está ali rolando feed ou pulando de aba em aba, seu cérebro está sendo bombardeado por dopamina, o neurotransmissor do prazer e da antecipação. O problema é que esse prazer é fácil, rápido, superficial. E o cérebro começa a se viciar nesse tipo de estímulo. E quanto mais você se afunda nisso, mais difícil fica começar tarefas reais, que exigem esforço e não oferecem recompensa imediata. A internet virou um parque de diversões infinito. Seu cérebro quer estímulo constante, e se você tenta tirar isso, ele reclama. Fica inquieto. Te sabota. A culpa não é sua. A culpa é do design. As redes sociais são feitas para te prender. São algoritmos programados para manter sua atenção, explorando exatamente os gatilhos que sua mente tem menos controle. E quanto mais tempo você passa ali, mais o seu cérebro enfraquece a parte que toma decisões difíceis e pensa no longo prazo, o córtex pré-frontal. A primeira coisa que você precisa entender é, não tem hack milagroso. Não tem botão mágico. Tem hábito. E hábito exige desconforto no início. Mas um desconforto que vale a pena. Porque é ele que começa a reeducar seu cérebro. O segredo, começar pela coisa mais difícil. Sim, a mais difícil. A que você está evitando. Isso se chama comer o sapo. Parece cruel. É, mas funciona. Porque quando você começa o dia vencendo o maior obstáculo, o resto fica mais leve. Seu cérebro entende que o pior é o que você faz. E o pior já passou. E aí você começa a gerar o que importa de verdade. Impulso. Pensa numa bola de neve. Começa pequena. Mas à medida que rola, ela cresce. É assim que funciona o impulso. Você começa fazendo só cinco minutos da tarefa. Só um parágrafo. Só organizando os materiais. E aí o corpo entra no ritmo. A mente para de resistir. O mais difícil sempre é o começo. Mas aí vem a pegadinha. Mesmo quando você está com a cabeça aberta, você não consegue fazer nada. Mesmo quando você começa, vai ter dias que parecem um inferno. Dias que você tenta sentar e não consegue. Que parece que nada flui. E você pensa, será que eu voltei para a estaca zero? Não. Você não voltou. Você só está enfrentando o segundo chefe, o perfeccionismo. O perfeccionismo é o sabotador disfarçado de exigência. Ele te convence de que, se não for para fazer perfeito, é melhor nem começar. Mas isso é só medo. Medo de falhar. Medo de fazer feio. Medo de mostrar algo que ainda não está pronto. E aí você paralisa. Travado pelo medo de errar. De ser julgado. Mas olha em volta. As pessoas que você admira, as que fazem, as que vão para frente, erram o tempo todo. Elas só não param. Elas aprendem com o erro, ajustam e seguem. O fracasso é feedback. Não sentença. Você pode até tentar fazer tudo perfeito, mas vai acabar travando. Como naquela vez que você deixou de entregar um trabalho porque achou que ele ainda não estava bom. E aí entregou nada. Ou aquela ideia de vídeo, de projeto, que ficou na gaveta porque não estava no ponto. E passou o timing. Passou a chance. Você ficou para trás. Você não precisa ser brilhante hoje. Só precisa ser consistente. Repetir. Treinar. Testar. E aceitar que no início vai ser ruim, vai ser difícil, vai dar vontade de parar. Mas se você não está pronto, vai ter que parar. Mas se você parar, nada muda. E para continuar, você vai precisar de mais uma arma. Dopamina real. Aquela que não vem do celular, mas do progresso. Sim, seu cérebro adora dopamina. Então use isso ao seu favor. Crie pequenos marcos. Pequenas recompensas. Terminou uma tarefa? Dá um descanso. Fez tudo o que prometeu para hoje? Se permita algo prazeroso. Associe o esforço com prazer, e não com sofrimento. Aqui entra o ponto mais delicado de todos. O vício no estímulo fácil. Porque quanto mais você se recompensa com prazer instantâneo, redes sociais, doces, distrações, mais difícil é fazer o cérebro gostar do que exige esforço. A balança da dopamina se desequilibra. O prazer fácil custa caro. A solução? Dopamina de verdade. Do tédio. Sim, do tédio. Sabe por quê? Porque é no tédio que a mente organiza as ideias. Cria. Processa. Se você não aguenta ficar entediado, nunca vai suportar o silêncio necessário para produzir algo grande. Começa com coisas pequenas. Deixe o celular longe por 30 minutos. Vá caminhar sem música. Tome um banho gelado. Não porque é moda, mas porque exige presença. Porque dói no momento, mas te traz clareza depois. O desconforto físico às vezes é a única coisa que te arranca do entorpecimento digital. Você procrastina porque se sente mal. Você não consegue se sentir bem. Você está completamente preso. Preso ao medo, ao julgamento, ao peso da expectativa. Mas também porque se viciou na recompensa rápida, fácil, descartável. E sair disso exige mais do que força de vontade. Exige autocompaixão. Sim, você vai falhar. Sim, vai cair de novo. E tudo bem. O jogo não é sobre nunca errar. É sobre cair e levantar mais rápido. Sobre não se sabotar por dias só porque teve um dia ruim. Sobre construir um sistema que te lembre quem você quer ser, mesmo nos dias em que tudo parece cinza. E quando você achar que está atrasado, lembra, não existe caminho certo. Existe o seu caminho. Ele começa exatamente onde você está. Agora. E só depende de você dar o primeiro passo.",
+    "detected_language": "portuguese"
+  },
+  "started_at": "2025-04-15T04:09:00.221042Z",
+  "status": "succeeded",
+  "urls": {
+    "get": "https://api.replicate.com/v1/predictions/7ssvfrhk15rg80cp6ygvh0g2n4",
+    "cancel": "https://api.replicate.com/v1/predictions/7ssvfrhk15rg80cp6ygvh0g2n4/cancel"
+  },
+  "version": "8099696689d249cf8b122d833c36ac3f75505c666a395ca40ef26f68e7d3d16e"
+}

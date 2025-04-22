@@ -1,28 +1,27 @@
 import argparse
+import glob
+import logging
 import os
+import shutil
 import sys
 import tempfile
+import traceback
 from pathlib import Path
-
-import shutil
-import glob
 
 import gradio as gr
 import librosa.display
 import numpy as np
-
+import requests
 import torch
 import torchaudio
-import traceback
-from utils.formatter import format_audio_list,find_latest_best_model, list_audios
-from utils.gpt_train import train_gpt
-
 from faster_whisper import WhisperModel
-
 from TTS.tts.configs.xtts_config import XttsConfig
 from TTS.tts.models.xtts import Xtts
 
-import requests
+from utils.formatter import (find_latest_best_model, format_audio_list,
+                             list_audios)
+from utils.gpt_train import train_gpt
+
 
 def download_file(url, destination):
     try:
@@ -148,7 +147,7 @@ def load_params_tts(out_path,version):
     if not model_path.exists():
         model_path = ready_model_path / "unoptimize_model.pth"
         if not model_path.exists():
-          return "Params for TTS not found", "", "", ""         
+          return "Params for TTS not found", "", "", "" , "", ""       
 
     return "Params for TTS loaded", model_path, config_path, vocab_path,speaker_path, reference_path
      
@@ -400,8 +399,8 @@ if __name__ == "__main__":
             
             import os
             import shutil
-            from pathlib import Path
             import traceback
+            from pathlib import Path
             
             def train_model(custom_model, version, language, train_csv, eval_csv, num_epochs, batch_size, grad_acumm, output_path, max_audio_length):
                 clear_gpu_cache()
@@ -415,6 +414,13 @@ if __name__ == "__main__":
             
                 run_dir = Path(output_path) / "run"
             
+                ## depois
+                for handler in logging.root.handlers[:]:
+                    handler.close()
+                    logging.root.removeHandler(handler)
+
+                ## depois ☝
+
                 # Remove train dir
                 if run_dir.exists():
                     shutil.rmtree(run_dir)
@@ -587,7 +593,7 @@ if __name__ == "__main__":
                     )
                     tts_text = gr.Textbox(
                         label="Input Text.",
-                        value="This model sounds really good and above all, it's reasonably fast.",
+                        value="Não é segredo que o inglês é a língua universal dos negócios, da tecnologia, da ciência, da comunicação internacional e a língua que conecta pessoas de diferentes países e culturas. É essencial para quem busca ter uma carreira de sucesso em qualquer área. No entanto, infelizmente, muitos brasileiros ainda não se deram conta da importância de falar inglês. Isso significa que quem não fala inglês está ficando para trás em um mundo cada vez mais competitivo, perdendo oportunidades de negócios, empregos e conexões internacionais.",
                     )
                     with gr.Accordion("Advanced settings", open=False) as acr:
                         temperature = gr.Slider(

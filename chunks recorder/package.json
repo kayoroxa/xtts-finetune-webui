@@ -1,0 +1,13 @@
+{
+  "name": "tts-shadowing-app",
+  "version": "1.0.0",
+  "description": "App para gravação de shadowing e criação de datasets para TTS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^1.4.5-lts.2"
+  }
+}
