@@ -464,9 +464,10 @@ if __name__ == "__main__":
                 print("Model training done!")
                 return "Model training done!", config_path, vocab_file, ft_xtts_checkpoint, speaker_xtts_path, speaker_reference_new_path
 
-            def optimize_model(out_path, clear_train_data):
+            def optimize_model(out_path, clear_train_data, custom_model_path= None):
                 # print(out_path)
                 out_path = Path(out_path)  # Ensure that out_path is a Path object.
+                is_custom_model = False
             
                 ready_dir = out_path / "ready"
                 run_dir = out_path / "run"
@@ -489,7 +490,12 @@ if __name__ == "__main__":
                 model_path = ready_dir / "unoptimize_model.pth"
 
                 if not model_path.is_file():
-                    return "Unoptimized model not found in ready folder", ""
+                    # Se o usuário passou um custom model, usa ele
+                    if custom_model_path and Path(custom_model_path).is_file():
+                        model_path = Path(custom_model_path)
+                        is_custom_model = True
+                    else:
+                        return "No model found to optimize!", ""
             
                 # Load the checkpoint and remove unnecessary parts.
                 checkpoint = torch.load(model_path, map_location=torch.device("cpu"))
@@ -499,8 +505,9 @@ if __name__ == "__main__":
                     if "dvae" in key:
                         del checkpoint["model"][key]
 
-                # Make sure out_path is a Path object or convert it to Path
-                os.remove(model_path)
+                # Make sure out_path is a Path object or convert it to Path # Agora só remove se NÃO for custom
+                if not is_custom_model:
+                    os.remove(model_path)
 
                   # Save the optimized model.
                 optimized_model_file_name="model.pth"
@@ -708,7 +715,8 @@ if __name__ == "__main__":
                 fn=optimize_model,
                 inputs=[
                     out_path,
-                    clear_train_data
+                    clear_train_data,
+                    custom_model
                 ],
                 outputs=[progress_train,xtts_checkpoint],
             )

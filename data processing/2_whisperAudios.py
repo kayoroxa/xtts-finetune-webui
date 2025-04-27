@@ -53,7 +53,7 @@ with open(METADATA_CSV, "a", encoding="utf-8", newline="") as f:
                 str(arquivo),
                 language="pt"
             )
-
+            segments = list(segments)
             # Calcula confiança média
             if segments:
                 avg_logprobs = [seg.avg_logprob for seg in segments if hasattr(seg, "avg_logprob")]
