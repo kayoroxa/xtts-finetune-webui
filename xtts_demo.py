@@ -379,6 +379,13 @@ if __name__ == "__main__":
                 step=1,
                 value=args.max_audio_length,
             )
+            dropout_rate = gr.Slider(
+                label="Dropout rate:",
+                minimum=0.0,
+                maximum=0.5,
+                step=0.05,
+                value=0.0
+            )
             clear_train_data = gr.Dropdown(
                 label="Clear train data, you will delete selected folder, after optimizing",
                 value="none",
@@ -402,7 +409,7 @@ if __name__ == "__main__":
             import traceback
             from pathlib import Path
             
-            def train_model(custom_model, version, language, train_csv, eval_csv, num_epochs, batch_size, grad_acumm, output_path, max_audio_length):
+            def train_model(custom_model, version, language, train_csv, eval_csv, num_epochs, batch_size, grad_acumm, output_path, max_audio_length, dropout_rate):
                 clear_gpu_cache()
           
                 # Check if `custom_model` is a URL and download it if true.
@@ -442,7 +449,11 @@ if __name__ == "__main__":
                 try:
                     # convert seconds to waveform frames
                     max_audio_length = int(max_audio_length * 22050)
-                    speaker_xtts_path, config_path, original_xtts_checkpoint, vocab_file, exp_path, speaker_wav = train_gpt(custom_model, version, language, num_epochs, batch_size, grad_acumm, train_csv, eval_csv, output_path=output_path, max_audio_length=max_audio_length)
+                    speaker_xtts_path, config_path, original_xtts_checkpoint, vocab_file, exp_path, speaker_wav = train_gpt(
+                        custom_model, version, language, num_epochs, batch_size, grad_acumm, train_csv, eval_csv,
+                        output_path=output_path, max_audio_length=max_audio_length, dropout_rate=dropout_rate
+                    )
+
                 except:
                     traceback.print_exc()
                     error = traceback.format_exc()
@@ -707,6 +718,7 @@ if __name__ == "__main__":
                     grad_acumm,
                     out_path,
                     max_audio_length,
+                    dropout_rate, 
                 ],
                 outputs=[progress_train, xtts_config, xtts_vocab, xtts_checkpoint,xtts_speaker, speaker_reference_audio],
             )

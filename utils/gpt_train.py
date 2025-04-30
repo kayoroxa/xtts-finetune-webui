@@ -39,7 +39,7 @@ def generate_sample(model, config, text, ref_audio, lang, step):
 
 
 
-def train_gpt(custom_model,version, language, num_epochs, batch_size, grad_acumm, train_csv, eval_csv, output_path, max_audio_length=255995):
+def train_gpt(custom_model,version, language, num_epochs, batch_size, grad_acumm, train_csv, eval_csv, output_path, max_audio_length=255995, dropout_rate=0.0):
     #  Logging parameters
     RUN_NAME = "GPT_XTTS_FT"
     PROJECT_NAME = "XTTS_trainer"
@@ -196,7 +196,12 @@ def train_gpt(custom_model,version, language, num_epochs, batch_size, grad_acumm
         lr_scheduler_params={"milestones": [50000 * 18, 150000 * 18, 300000 * 18], "gamma": 0.5, "last_epoch": -1},
         test_sentences=[
         {
-            "text": "Essa é uma amostra automática do modelo.",
+            "text": "Quando o corretor de imóveis admite para si mesmo: “Sabe, talvez não haja nada de único ou especial nos meus sonhos ou no meu emprego”, ele se liberta para se matricular numa aula de música, e ver nu que dá. Eu tenho uma notícia boa e uma ruim para você: seus problemas são bem pouco originais e especiais.",
+            "language": language,
+            "speaker_wav": "E:/REPOS/xtts-finetune-webui/finetune_models/ready/reference0.wav"
+        },
+          {
+            "text": "Quando o corretor de imóveis admite para si mesmo: “Sabe, talvez não haja nada de único ou especial nos meus sonhos ou no meu emprego”, ele se liberta para se matricular numa aula de música, e ver nu que dá. Eu tenho uma notícia boa e uma ruim para você: seus problemas são bem pouco originais e especiais.",
             "language": language,
             "speaker_wav": "E:/REPOS/xtts-finetune-webui/finetune_models/ready/reference.wav"
         }
@@ -205,6 +210,15 @@ def train_gpt(custom_model,version, language, num_epochs, batch_size, grad_acumm
 
     # init the model from config
     model = GPTTrainer.init_from_config(config)
+
+    dropout_aplicado = 0
+    for module in model.modules():
+        if isinstance(module, torch.nn.Dropout):
+            module.p = dropout_rate
+            dropout_aplicado += 1
+
+    print(f"[✓] Dropout personalizado aplicado: {dropout_aplicado} camadas com p = {dropout_rate}")
+
 
     # load training samples
     train_samples, eval_samples = load_tts_samples(
