@@ -10,7 +10,13 @@ import pygame
 # Caminhos
 pasta_base = r"E:\REPOS\xtts-finetune-webui\finetune_models\dataset"
 caminho_csv = os.path.join(pasta_base, "metadata_train.csv")
-caminho_progresso = r"E:\REPOS\xtts-finetune-webui\finetune_models\dataset\funcs\catalogo_progresso.json"
+caminho_progresso = r"E:\REPOS\xtts-finetune-webui\data processing\funcs\catalogo_progresso.json"
+
+# check if progresso json exist
+if not os.path.exists(caminho_progresso):
+    print(f"Arquivo {caminho_progresso} não encontrado. Criando um novo...")
+    sys.exit()
+
 
 # 🎯 FILTROS de nome dos áudios (ex: ["segment_", "intro", "teste"])
 filtros_nome_audio = ["ele-"]  # Deixe vazio [] para tocar todos
