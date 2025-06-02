@@ -13,7 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent
 
 # Caminhos
 # Pode ser um único arquivo ou um diretório com vários arquivos .wav
-input_path = Path("D:/OBS RECORDING/IA VOICE GRAVAR/18-5-e.mp3")  # <- Altere aqui para um arquivo ou pasta
+input_path = Path(r"C:\Users\Fernandes\Music\treino IA VOZ\outputs\mini-hards.wav")  # <- Altere aqui para um arquivo ou pasta
 
 # Saída
 output_dir = BASE_DIR / "audios/wavs"

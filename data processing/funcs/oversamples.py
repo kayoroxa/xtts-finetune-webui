@@ -65,9 +65,11 @@ file_path = r'E:\REPOS\xtts-finetune-webui\finetune_models\dataset\metadata_trai
 patterns = """
 wavs/5-1
 wavs/18-5-e
+wavs/mini-hards
+wavs-ele/ele-523s
 """.strip().split('\n')
 
-duplicate = 0
+duplicate = 5
 
 # ---------- EXECUTAR ----------
 oversample_metadata(file_path, patterns, duplicate)

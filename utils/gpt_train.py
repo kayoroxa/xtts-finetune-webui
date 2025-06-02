@@ -53,7 +53,7 @@ def train_gpt(custom_model,version, language, num_epochs, batch_size, grad_acumm
 
     # Training Parameters
     OPTIMIZER_WD_ONLY_ON_WEIGHTS = True  # for multi-gpu training please make it False
-    START_WITH_EVAL = False  # if True it will star with evaluation
+    START_WITH_EVAL = True  # if True it will star with evaluation
     BATCH_SIZE = batch_size  # set here the batch size
     GRAD_ACUMM_STEPS = grad_acumm  # set here the grad accumulation steps
 
@@ -178,32 +178,48 @@ def train_gpt(custom_model,version, language, num_epochs, batch_size, grad_acumm
         eval_batch_size=BATCH_SIZE,
         num_loader_workers=num_workers,
         eval_split_max_size=256,
+        run_eval_steps=100,
         print_step=50,
         plot_step=100,
         log_model_step=100,
-        save_step=1000,
+        save_step=1500,
         save_n_checkpoints=1,
         save_checkpoints=True,
-        # target_loss="loss",
+        # use_noise_augment = True,
+        # shuffle=True,
+        # drop_last=True,
+        target_loss="loss", ## comentado
         print_eval=False,
+        grad_clip=1.0,
         # Optimizer values like tortoise, pytorch implementation with modifications to not apply WD to non-weight parameters.
         optimizer="AdamW",
+        cudnn_benchmark=True,
         optimizer_wd_only_on_weights=OPTIMIZER_WD_ONLY_ON_WEIGHTS,
-        optimizer_params={"betas": [0.9, 0.96], "eps": 1e-8, "weight_decay": 1e-2},
-        lr=5e-06,  # learning rate
-        lr_scheduler="MultiStepLR",
+        optimizer_params={"betas": [0.9, 0.96], "eps": 1e-8, "weight_decay": 1e-3},
+        lr=1e-05,  # learning rate 5e-06
+         lr_scheduler="MultiStepLR",
         # it was adjusted accordly for the new step scheme
-        lr_scheduler_params={"milestones": [50000 * 18, 150000 * 18, 300000 * 18], "gamma": 0.5, "last_epoch": -1},
+        lr_scheduler_params = {
+            "milestones": [1200, 1900, 2600],
+        #    "milestones": [0.4 * total_steps, 0.7 * total_steps, 0.9 * total_steps],
+            "gamma": 0.5,
+            "last_epoch": -1
+        },
         test_sentences=[
         {
-            "text": "Quando o corretor de imóveis admite para si mesmo: “Sabe, talvez não haja nada de único ou especial nos meus sonhos ou no meu emprego”, ele se liberta para se matricular numa aula de música, e ver nu que dá. Eu tenho uma notícia boa e uma ruim para você: seus problemas são bem pouco originais e especiais.",
+            "text": "De manhã, fui ao trabalho, minha mãe caminhava devagar, com a mão molhada, olhando o trovão com olhos estranhos. Parecia um sonho, ninguém falava, só o barulho do liquidificador.",
             "language": language,
             "speaker_wav": "E:/REPOS/xtts-finetune-webui/finetune_models/ready/reference0.wav"
         },
           {
-            "text": "Quando o corretor de imóveis admite para si mesmo: “Sabe, talvez não haja nada de único ou especial nos meus sonhos ou no meu emprego”, ele se liberta para se matricular numa aula de música, e ver nu que dá. Eu tenho uma notícia boa e uma ruim para você: seus problemas são bem pouco originais e especiais.",
+            "text": "Ao trazer esse método para o Brasil, ele foi aconselhado por um amigo empresário de que se ensinasse as pessoas a falar inglês rápido, ele perderia muito dinheiro. Então era melhor esse curso.",
             "language": language,
-            "speaker_wav": "E:/REPOS/xtts-finetune-webui/finetune_models/ready/reference.wav"
+            "speaker_wav": "E:/REPOS/xtts-finetune-webui/finetune_models/ready/reference0.wav"
+        },
+              {
+            "text": "Naquela manhã, molhada de trovões, caminhava com um guarda-chuva pequeno e desastroso sem controle, o típico investimento que mãe diz pra não fazer. Molhou tudo. Enquanto olhava pro céu, pensei no controle que nunca tive. A vida inverta planos.",
+            "language": language,
+            "speaker_wav": "E:/REPOS/xtts-finetune-webui/finetune_models/ready/reference0.wav"
         }
     ],
     )
@@ -227,6 +243,24 @@ def train_gpt(custom_model,version, language, num_epochs, batch_size, grad_acumm
         eval_split_max_size=config.eval_split_max_size,
         eval_split_size=config.eval_split_size,
     )
+
+    # DEBUG MODE: Reduzir para só os 2 primeiros samples
+    # train_samples = train_samples[:2]
+    # eval_samples = eval_samples[:2]
+
+    # Filtra apenas os samples cujo caminho do áudio contém "IA-"
+    # eval_samples = [s for s in eval_samples if "ele" in s["audio_file"]]
+    # train_samples = [s for s in train_samples if "ele" in s["audio_file"]]
+    print(f"📃 Train samples: {len(train_samples)}")
+    print(f"📃 Eval samples: {len(eval_samples)}")
+    
+    print("\n\n======== Params ========\n")
+
+    # print every parameter
+    for key, value in config.items():
+        print(f"{key}: {value}")
+
+    print("\n=======================\n\n")
 
     # init the trainer and 🚀
     trainer = Trainer(
